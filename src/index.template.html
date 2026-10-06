@@ -1,0 +1,75 @@
+<title>Kaidora Panel de Gestión</title>
+<meta name="description" content="Kaidora S.L. · Panel de gestión con los cuatro sistemas de información: TPS, MIS, DSS y ESS. Empresa ficticia y datos simulados.">
+<meta name="robots" content="noindex, nofollow">
+<meta name="theme-color" content="#0b1b3a">
+/*__HEAD__*/
+<script>
+try { var kp = JSON.parse(localStorage.getItem('kaidora.prefs')) || {}; document.documentElement.setAttribute('data-theme', kp.theme === 'dark' ? 'dark' : 'light'); } catch (e) { document.documentElement.setAttribute('data-theme', 'light'); }
+// pantalla de carga con el logo: dura INTRO_MAX_S (config.js) y no se repite en la misma sesión
+(function () { var d = document.documentElement; d.style.setProperty('--intro-s', /*__INTRO_MAX_S__*/1 + 's'); try { if (sessionStorage.getItem('kaidora.intro')) d.classList.add('intro-visto'); else sessionStorage.setItem('kaidora.intro', '1'); } catch (e) { /* sin sessionStorage: se muestra */ } })();
+</script>
+<style>
+/*__CSS__*/
+</style>
+
+<div class="intro" id="intro" aria-hidden="true">
+  <div class="intro-glow"></div>
+  <div class="intro-mark"><svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lgina" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9bff"/><stop offset=".5" stop-color="#2563eb"/><stop offset="1" stop-color="#1636a8"/></linearGradient><linearGradient id="lginb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><rect width="48" height="48" rx="13" fill="url(#lgina)"/><rect x="1" y="1" width="46" height="30" rx="12" fill="url(#lginb)"/><g fill="none" stroke-linecap="round" stroke-width="5.4"><path class="k1" pathLength="1" d="M17 13v22" stroke="#fff"/><path class="k2" pathLength="1" d="M31.5 13 19.6 24.6" stroke="#fff"/><path class="k3" pathLength="1" d="M23.2 21.1 32 35" stroke="#b9d3ff"/></g></svg><span class="intro-word"><span style="--i:0">K</span><span style="--i:1">a</span><span style="--i:2">i</span><span style="--i:3">d</span><span style="--i:4">o</span><span style="--i:5">r</span><span style="--i:6">a</span></span></div>
+</div>
+<a class="skip" href="#main">Saltar al contenido</a>
+<header class="appbar">
+  <button type="button" class="brand" data-go="home" aria-label="Kaidora, ir al inicio">
+    <svg class="logo" viewBox="0 0 48 48" aria-hidden="true"><defs><linearGradient id="lgapa" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5b9bff"/><stop offset=".5" stop-color="#2563eb"/><stop offset="1" stop-color="#1636a8"/></linearGradient><linearGradient id="lgapb" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#fff" stop-opacity=".38"/><stop offset=".55" stop-color="#fff" stop-opacity="0"/></linearGradient></defs><rect width="48" height="48" rx="13" fill="url(#lgapa)"/><rect x="1" y="1" width="46" height="30" rx="12" fill="url(#lgapb)"/><g fill="none" stroke-linecap="round" stroke-width="5.4"><path class="k1" pathLength="1" d="M17 13v22" stroke="#fff"/><path class="k2" pathLength="1" d="M31.5 13 19.6 24.6" stroke="#fff"/><path class="k3" pathLength="1" d="M23.2 21.1 32 35" stroke="#b9d3ff"/></g></svg>
+    <b>Kaidora</b><span>Panel de gestión</span>
+  </button>
+  <span class="sep" aria-hidden="true"></span>
+  <span class="where" id="where">Inicio</span>
+  <div class="right">
+    <span class="stamp"><i aria-hidden="true"></i><span>Datos simulados a 30/09/2026</span></span>
+    <button type="button" class="bar-btn" id="a11y-btn" aria-label="Opciones de accesibilidad" aria-haspopup="dialog" aria-expanded="false" aria-controls="a11y"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="4.5" r="1.8"/><path d="M5 8.5l7 1.5 7-1.5"/><path d="M12 10v5l-3 6M12 15l3 6"/></svg></button>
+  </div>
+</header>
+
+<main id="main" tabindex="-1">
+  <div class="view" id="view-home"></div>
+  <div class="view" id="view-tps" hidden></div>
+  <div class="view" id="view-mis" hidden></div>
+  <div class="view" id="view-dss" hidden></div>
+  <div class="view" id="view-ess" hidden></div>
+</main>
+
+<nav class="pagetabs" aria-label="Páginas del informe">
+  <button type="button" data-go="home"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3 11l9-7 9 7"/><path d="M5 10v10h14V10"/></svg><span class="pt-l">Inicio</span></button>
+  <button type="button" data-go="tps"><span class="dot" data-l="tps">TPS</span><span class="pt-l">Transacciones</span></button>
+  <button type="button" data-go="mis"><span class="dot" data-l="mis">MIS</span><span class="pt-l">Gestión</span></button>
+  <button type="button" data-go="dss"><span class="dot" data-l="dss">DSS</span><span class="pt-l">Decisiones</span></button>
+  <button type="button" data-go="ess"><span class="dot" data-l="ess">ESS</span><span class="pt-l">Dirección</span></button>
+</nav>
+
+<div class="pop" id="a11y" role="dialog" aria-labelledby="a11y-t" hidden>
+  <h2 id="a11y-t">Accesibilidad <button type="button" class="x-btn" id="a11y-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></h2>
+  <div class="opt"><span id="o1">Tema</span><div class="seg" role="group" aria-labelledby="o1"><button type="button" data-pref="theme" data-val="light">Claro</button><button type="button" data-pref="theme" data-val="dark">Oscuro</button></div></div>
+  <div class="opt"><span id="o2">Contraste</span><div class="seg" role="group" aria-labelledby="o2"><button type="button" data-pref="contrast" data-val="normal">Normal</button><button type="button" data-pref="contrast" data-val="more">Alto</button></div></div>
+  <div class="opt"><span id="o3">Tamaño del texto</span><div class="seg" role="group" aria-labelledby="o3"><button type="button" data-pref="font" data-val="1">100 %</button><button type="button" data-pref="font" data-val="1.125">112 %</button><button type="button" data-pref="font" data-val="1.25">125 %</button></div></div>
+</div>
+
+<div class="drawer-scrim" id="drawer-scrim"></div>
+<aside class="drawer" id="drawer" role="dialog" aria-modal="true" aria-labelledby="drawer-title" aria-hidden="true" hidden>
+  <div class="drawer-head">
+    <div class="row"><h2 id="drawer-title"></h2><button type="button" class="x-btn" id="drawer-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div>
+    <div class="path" id="drawer-path"></div>
+  </div>
+  <div class="drawer-body" id="drawer-body"></div>
+</aside>
+<div class="ficha-pop" id="ficha" role="dialog" aria-label="Ficha del sistema" hidden></div>
+<div class="focus-scrim" id="focus-scrim"></div>
+<div class="focus" id="focus" role="dialog" aria-modal="true" aria-labelledby="focus-title" hidden>
+  <div class="focus-h"><h2 id="focus-title"></h2><div class="row">
+    <div class="seg" id="focus-seg" role="group" aria-label="Vista"><button type="button" data-mode="chart">Gráfico</button><button type="button" data-mode="data">Datos</button></div>
+    <button type="button" class="x-btn" id="focus-close" aria-label="Cerrar"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg></button></div></div>
+  <div class="focus-body" id="focus-body"></div>
+</div>
+<div class="tip" id="tip" aria-hidden="true"></div>
+<div class="morph" id="morph" aria-hidden="true" hidden></div>
+
+/*__SCRIPTS__*/

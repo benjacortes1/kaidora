@@ -1,0 +1,181 @@
+{
+  "fecha": "2026-10-03T17:34:55.712Z",
+  "base": "http://localhost:8791",
+  "lighthouse": {
+    "movil": {
+      "lcp_ms": 41110,
+      "tbt_ms": 222,
+      "cls": 0.0001,
+      "fcp_ms": 2080,
+      "bytes_kb": 6597,
+      "peticiones": 200,
+      "peticiones_kit": 192,
+      "kit_kb": 6251,
+      "puntuacion": 69,
+      "lcp_elemento": "<b>",
+      "ejecuciones": 3
+    },
+    "escritorio": {
+      "lcp_ms": 7273,
+      "tbt_ms": 0,
+      "cls": 0.0008,
+      "fcp_ms": 439,
+      "bytes_kb": 6597,
+      "peticiones": 200,
+      "peticiones_kit": 192,
+      "kit_kb": 6251,
+      "puntuacion": 75,
+      "lcp_elemento": "<b>",
+      "ejecuciones": 3
+    }
+  },
+  "fps_pagina_en_blanco": 40,
+  "scroll": {
+    "escritorio": {
+      "cpu1x": {
+        "portada": {
+          "fotogramas": 441,
+          "p50_ms": 16.7,
+          "p95_ms": 17.1,
+          "max_ms": 66.7,
+          "loaf_50": 1,
+          "loaf_100": 0,
+          "desplazado_px": 2700,
+          "loaf_soportado": true
+        }
+      },
+      "cpu4x": {
+        "portada": {
+          "fotogramas": 466,
+          "p50_ms": 16.7,
+          "p95_ms": 16.9,
+          "max_ms": 17.3,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 2700,
+          "loaf_soportado": true
+        }
+      }
+    },
+    "movil": {
+      "cpu1x": {
+        "portada": {
+          "fotogramas": 447,
+          "p50_ms": 16.7,
+          "p95_ms": 17,
+          "max_ms": 17.5,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 1120,
+          "loaf_soportado": true
+        },
+        "tps": {
+          "fotogramas": 361,
+          "p50_ms": 16.7,
+          "p95_ms": 17,
+          "max_ms": 17.3,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 991,
+          "loaf_soportado": true
+        },
+        "mis": {
+          "fotogramas": 358,
+          "p50_ms": 16.7,
+          "p95_ms": 17,
+          "max_ms": 66.4,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 1278,
+          "loaf_soportado": true
+        }
+      },
+      "cpu4x": {
+        "portada": {
+          "fotogramas": 453,
+          "p50_ms": 16.7,
+          "p95_ms": 16.9,
+          "max_ms": 17.8,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 1120,
+          "loaf_soportado": true
+        },
+        "tps": {
+          "fotogramas": 357,
+          "p50_ms": 16.7,
+          "p95_ms": 17,
+          "max_ms": 17.3,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 991,
+          "loaf_soportado": true
+        },
+        "mis": {
+          "fotogramas": 361,
+          "p50_ms": 16.7,
+          "p95_ms": 17,
+          "max_ms": 17.4,
+          "loaf_50": 0,
+          "loaf_100": 0,
+          "desplazado_px": 1300,
+          "loaf_soportado": true
+        }
+      }
+    }
+  },
+  "cambio_vista": {
+    "escritorio": {
+      "tarjeta": {
+        "tps": 626,
+        "mis": 554,
+        "dss": 524,
+        "ess": 554
+      },
+      "pestana": {
+        "mis": 40,
+        "dss": 37,
+        "ess": 40,
+        "tps": 87
+      }
+    },
+    "movil": {
+      "tarjeta": {
+        "tps": 643,
+        "mis": 556,
+        "dss": 519,
+        "ess": 567
+      },
+      "pestana": {
+        "mis": 36,
+        "dss": 39,
+        "ess": 42,
+        "tps": 38
+      }
+    }
+  },
+  "segunda_visita": {
+    "escritorio": {
+      "peticiones": 198,
+      "a_la_red": 2,
+      "red_kit": 0,
+      "red_con_hash": 0,
+      "revalidadas_304": 0,
+      "detalle_red": [
+        "/ 200",
+        "/favicon.svg 200"
+      ]
+    },
+    "movil": {
+      "peticiones": 198,
+      "a_la_red": 2,
+      "red_kit": 0,
+      "red_con_hash": 0,
+      "revalidadas_304": 0,
+      "detalle_red": [
+        "/ 200",
+        "/favicon.svg 200"
+      ]
+    }
+  }
+}

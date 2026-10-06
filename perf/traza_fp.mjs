@@ -1,0 +1,20 @@
+// Traza del arranque con la intro: eventos largos antes del primer pintado.
+import { chromium } from 'playwright-core';
+import fs from 'node:fs';
+const b = await chromium.launch({ executablePath: 'C:/Program Files/Google/Chrome/Application/chrome.exe', headless: true });
+const ctx = await b.newContext({ viewport: { width: 412, height: 823 }, isMobile: true, hasTouch: true });
+const p = await ctx.newPage();
+await b.startTracing(p, { path: 'traza_fp.json', categories: ['devtools.timeline', 'disabled-by-default-devtools.timeline', 'blink', 'cc', 'gpu', 'viz', 'loading', 'benchmark', 'disabled-by-default-devtools.timeline.frame'] });
+await p.goto(process.argv[2]); await p.waitForTimeout(2500);
+await b.stopTracing();
+console.log('paint', JSON.stringify(await p.evaluate(() => performance.getEntriesByType('paint').map((e) => Math.round(e.startTime)))));
+const ev = JSON.parse(fs.readFileSync('traza_fp.json', 'utf8')).traceEvents;
+const nav = ev.find((e) => e.name === 'navigationStart' || e.name === 'NavigationStart' || e.name === 'markAsMainFrame') || ev.find((e) => e.name === 'TracingStartedInBrowser');
+const t0 = ev.filter((e) => e.name === 'navigationStart').map((e) => e.ts)[0] || ev[0].ts;
+const fp = ev.filter((e) => /firstPaint|firstContentfulPaint/.test(e.name));
+fp.forEach((e) => console.log('marca', e.name, Math.round((e.ts - t0) / 1000)));
+const long = ev.filter((e) => e.ph === 'X' && e.dur > 30000 && e.ts >= t0).sort((a, c) => a.ts - c.ts).slice(0, 40);
+long.forEach((e) => console.log(String(Math.round((e.ts - t0) / 1000)).padStart(6), String(Math.round(e.dur / 1000)).padStart(5), 'ms', e.cat.slice(0, 30).padEnd(30), e.name));
+const frames = ev.filter((e) => /BeginFrame|DrawFrame|PipelineReporter|Graphics.Pipeline/.test(e.name) && e.ts >= t0).slice(0, 12).map((e) => [e.name, Math.round((e.ts - t0) / 1000)]);
+console.log(JSON.stringify(frames));
+await b.close();

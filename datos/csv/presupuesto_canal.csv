@@ -1,0 +1,286 @@
+﻿mes;canal;presupuesto_eur
+2022-01;Web propia;114031
+2022-01;Amazon;370501
+2022-01;Empresas B2B;164289
+2022-01;Farmacias;84278
+2022-01;Distribuidores;79041
+2022-02;Web propia;112402
+2022-02;Amazon;333722
+2022-02;Empresas B2B;132593
+2022-02;Farmacias;79826
+2022-02;Distribuidores;78188
+2022-03;Web propia;120499
+2022-03;Amazon;384220
+2022-03;Empresas B2B;129295
+2022-03;Farmacias;96015
+2022-03;Distribuidores;96345
+2022-04;Web propia;132337
+2022-04;Amazon;433476
+2022-04;Empresas B2B;152168
+2022-04;Farmacias;107857
+2022-04;Distribuidores;99389
+2022-05;Web propia;145633
+2022-05;Amazon;417841
+2022-05;Empresas B2B;123562
+2022-05;Farmacias;107508
+2022-05;Distribuidores;122682
+2022-06;Web propia;162405
+2022-06;Amazon;509025
+2022-06;Empresas B2B;130729
+2022-06;Farmacias;137404
+2022-06;Distribuidores;146852
+2022-07;Web propia;167533
+2022-07;Amazon;671946
+2022-07;Empresas B2B;115631
+2022-07;Farmacias;135590
+2022-07;Distribuidores;161126
+2022-08;Web propia;147561
+2022-08;Amazon;522082
+2022-08;Empresas B2B;115900
+2022-08;Farmacias;110124
+2022-08;Distribuidores;137447
+2022-09;Web propia;152017
+2022-09;Amazon;446688
+2022-09;Empresas B2B;163430
+2022-09;Farmacias;119513
+2022-09;Distribuidores;120957
+2022-10;Web propia;140027
+2022-10;Amazon;457902
+2022-10;Empresas B2B;166739
+2022-10;Farmacias;90135
+2022-10;Distribuidores;94281
+2022-11;Web propia;211486
+2022-11;Amazon;617150
+2022-11;Empresas B2B;153696
+2022-11;Farmacias;116590
+2022-11;Distribuidores;103982
+2022-12;Web propia;198335
+2022-12;Amazon;549233
+2022-12;Empresas B2B;189493
+2022-12;Farmacias;135932
+2022-12;Distribuidores;105091
+2023-01;Web propia;136304
+2023-01;Amazon;424669
+2023-01;Empresas B2B;188294
+2023-01;Farmacias;94193
+2023-01;Distribuidores;93422
+2023-02;Web propia;132678
+2023-02;Amazon;390051
+2023-02;Empresas B2B;153116
+2023-02;Farmacias;90144
+2023-02;Distribuidores;92122
+2023-03;Web propia;140523
+2023-03;Amazon;440847
+2023-03;Empresas B2B;150083
+2023-03;Farmacias;103899
+2023-03;Distribuidores;108511
+2023-04;Web propia;158682
+2023-04;Amazon;515752
+2023-04;Empresas B2B;169977
+2023-04;Farmacias;122520
+2023-04;Distribuidores;120892
+2023-05;Web propia;163459
+2023-05;Amazon;503531
+2023-05;Empresas B2B;148409
+2023-05;Farmacias;119447
+2023-05;Distribuidores;137614
+2023-06;Web propia;184600
+2023-06;Amazon;571766
+2023-06;Empresas B2B;150815
+2023-06;Farmacias;153999
+2023-06;Distribuidores;167659
+2023-07;Web propia;185761
+2023-07;Amazon;776802
+2023-07;Empresas B2B;141893
+2023-07;Farmacias;158201
+2023-07;Distribuidores;182662
+2023-08;Web propia;168867
+2023-08;Amazon;549355
+2023-08;Empresas B2B;130279
+2023-08;Farmacias;130226
+2023-08;Distribuidores;161576
+2023-09;Web propia;175984
+2023-09;Amazon;517864
+2023-09;Empresas B2B;184268
+2023-09;Farmacias;134222
+2023-09;Distribuidores;134835
+2023-10;Web propia;158444
+2023-10;Amazon;530188
+2023-10;Empresas B2B;188893
+2023-10;Farmacias;112220
+2023-10;Distribuidores;105707
+2023-11;Web propia;251646
+2023-11;Amazon;735862
+2023-11;Empresas B2B;172437
+2023-11;Farmacias;136958
+2023-11;Distribuidores;120374
+2023-12;Web propia;224627
+2023-12;Amazon;660090
+2023-12;Empresas B2B;220251
+2023-12;Farmacias;155192
+2023-12;Distribuidores;123924
+2024-01;Web propia;152669
+2024-01;Amazon;425338
+2024-01;Empresas B2B;241310
+2024-01;Farmacias;92380
+2024-01;Distribuidores;103263
+2024-02;Web propia;144563
+2024-02;Amazon;378550
+2024-02;Empresas B2B;185201
+2024-02;Farmacias;97380
+2024-02;Distribuidores;94823
+2024-03;Web propia;172748
+2024-03;Amazon;477806
+2024-03;Empresas B2B;184870
+2024-03;Farmacias;120687
+2024-03;Distribuidores;119592
+2024-04;Web propia;180032
+2024-04;Amazon;519777
+2024-04;Empresas B2B;198351
+2024-04;Farmacias;144693
+2024-04;Distribuidores;129605
+2024-05;Web propia;194394
+2024-05;Amazon;571346
+2024-05;Empresas B2B;188715
+2024-05;Farmacias;156165
+2024-05;Distribuidores;135489
+2024-06;Web propia;212759
+2024-06;Amazon;632582
+2024-06;Empresas B2B;194703
+2024-06;Farmacias;199274
+2024-06;Distribuidores;179823
+2024-07;Web propia;230474
+2024-07;Amazon;798567
+2024-07;Empresas B2B;196951
+2024-07;Farmacias;208369
+2024-07;Distribuidores;193469
+2024-08;Web propia;198135
+2024-08;Amazon;614403
+2024-08;Empresas B2B;163219
+2024-08;Farmacias;177282
+2024-08;Distribuidores;184622
+2024-09;Web propia;229673
+2024-09;Amazon;577287
+2024-09;Empresas B2B;251162
+2024-09;Farmacias;183353
+2024-09;Distribuidores;139313
+2024-10;Web propia;201337
+2024-10;Amazon;596659
+2024-10;Empresas B2B;254383
+2024-10;Farmacias;177254
+2024-10;Distribuidores;114408
+2024-11;Web propia;304406
+2024-11;Amazon;763858
+2024-11;Empresas B2B;242984
+2024-11;Farmacias;186958
+2024-11;Distribuidores;132886
+2024-12;Web propia;281338
+2024-12;Amazon;712250
+2024-12;Empresas B2B;272120
+2024-12;Farmacias;223073
+2024-12;Distribuidores;136194
+2025-01;Web propia;195588
+2025-01;Amazon;483265
+2025-01;Empresas B2B;322788
+2025-01;Farmacias;158062
+2025-01;Distribuidores;106988
+2025-02;Web propia;190476
+2025-02;Amazon;470870
+2025-02;Empresas B2B;278917
+2025-02;Farmacias;158382
+2025-02;Distribuidores;110450
+2025-03;Web propia;206630
+2025-03;Amazon;532399
+2025-03;Empresas B2B;231679
+2025-03;Farmacias;167012
+2025-03;Distribuidores;122887
+2025-04;Web propia;234673
+2025-04;Amazon;602882
+2025-04;Empresas B2B;244989
+2025-04;Farmacias;180195
+2025-04;Distribuidores;143941
+2025-05;Web propia;230269
+2025-05;Amazon;607519
+2025-05;Empresas B2B;238032
+2025-05;Farmacias;192791
+2025-05;Distribuidores;144220
+2025-06;Web propia;251137
+2025-06;Amazon;672981
+2025-06;Empresas B2B;254950
+2025-06;Farmacias;243828
+2025-06;Distribuidores;201038
+2025-07;Web propia;251525
+2025-07;Amazon;830815
+2025-07;Empresas B2B;232050
+2025-07;Farmacias;235713
+2025-07;Distribuidores;225942
+2025-08;Web propia;244677
+2025-08;Amazon;603985
+2025-08;Empresas B2B;227849
+2025-08;Farmacias;202761
+2025-08;Distribuidores;190659
+2025-09;Web propia;248841
+2025-09;Amazon;605705
+2025-09;Empresas B2B;304075
+2025-09;Farmacias;210169
+2025-09;Distribuidores;146872
+2025-10;Web propia;235419
+2025-10;Amazon;654216
+2025-10;Empresas B2B;289752
+2025-10;Farmacias;192087
+2025-10;Distribuidores;129152
+2025-11;Web propia;344425
+2025-11;Amazon;858746
+2025-11;Empresas B2B;307927
+2025-11;Farmacias;242062
+2025-11;Distribuidores;152364
+2025-12;Web propia;330060
+2025-12;Amazon;787734
+2025-12;Empresas B2B;339414
+2025-12;Farmacias;241590
+2025-12;Distribuidores;151595
+2026-01;Web propia;244230
+2026-01;Amazon;498401
+2026-01;Empresas B2B;430595
+2026-01;Farmacias;179158
+2026-01;Distribuidores;126710
+2026-02;Web propia;228217
+2026-02;Amazon;477750
+2026-02;Empresas B2B;348970
+2026-02;Farmacias;166673
+2026-02;Distribuidores;118019
+2026-03;Web propia;251261
+2026-03;Amazon;559186
+2026-03;Empresas B2B;336925
+2026-03;Farmacias;197727
+2026-03;Distribuidores;147245
+2026-04;Web propia;286267
+2026-04;Amazon;582097
+2026-04;Empresas B2B;332209
+2026-04;Farmacias;211710
+2026-04;Distribuidores;173998
+2026-05;Web propia;274523
+2026-05;Amazon;608594
+2026-05;Empresas B2B;336378
+2026-05;Farmacias;217632
+2026-05;Distribuidores;158642
+2026-06;Web propia;316847
+2026-06;Amazon;692604
+2026-06;Empresas B2B;377380
+2026-06;Farmacias;255403
+2026-06;Distribuidores;241042
+2026-07;Web propia;305849
+2026-07;Amazon;931217
+2026-07;Empresas B2B;332735
+2026-07;Farmacias;269604
+2026-07;Distribuidores;261511
+2026-08;Web propia;284060
+2026-08;Amazon;672756
+2026-08;Empresas B2B;284318
+2026-08;Farmacias;223835
+2026-08;Distribuidores;217537
+2026-09;Web propia;297604
+2026-09;Amazon;635556
+2026-09;Empresas B2B;431198
+2026-09;Farmacias;230134
+2026-09;Distribuidores;166745

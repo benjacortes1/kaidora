@@ -1,0 +1,7 @@
+# Librerías descargadas: se reinstalan con "npm install", no se suben
+node_modules/
+
+# Archivos basura del sistema
+.DS_Store
+Thumbs.db
+desktop.ini

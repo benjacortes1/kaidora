@@ -1,0 +1,58 @@
+{
+ "scroll_rapido": {
+  "fotogramas_pantalla": 422,
+  "con_sustituto": 38,
+  "salto_max": 3,
+  "bitmaps_max": 20,
+  "bitmap": "1600×900",
+  "memoria_max_MB": 110
+ },
+ "lenis_asentado_ms": 368,
+ "errores_escritorio": [],
+ "cambio_tamano": {
+  "movil_1": {
+   "canvas": false,
+   "movil": true,
+   "tarjetas": 4,
+   "lenis": false
+  },
+  "escritorio_1280": {
+   "canvas": true,
+   "movil": false,
+   "tarjetas": 4,
+   "lenis": true
+  },
+  "movil_2": {
+   "canvas": false,
+   "movil": true,
+   "tarjetas": 4,
+   "lenis": false
+  },
+  "peticiones_kit": {
+   "movil_1": 0,
+   "escritorio": 42,
+   "movil_2": 0,
+   "tras_volver_a_movil": 0
+  },
+  "errores": []
+ },
+ "portada_movil": {
+  "375x667": {
+   "logo": true,
+   "canvas": false,
+   "tarjetas_visibles_sin_scroll": 4,
+   "scroll_posible": 0,
+   "h1": "Kaidora · Panel de gestión",
+   "peticiones_kit": 0
+  },
+  "390x844": {
+   "logo": true,
+   "canvas": false,
+   "tarjetas_visibles_sin_scroll": 4,
+   "scroll_posible": 0,
+   "h1": "Kaidora · Panel de gestión",
+   "peticiones_kit": 0
+  }
+ },
+ "errores_reducido": []
+}

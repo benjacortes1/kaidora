@@ -1,0 +1,83 @@
+{
+ "textos": {
+  "tarjetas_1440": "idéntico",
+  "tps_1440": "idéntico",
+  "mis_1440": "idéntico",
+  "dss_1440": "idéntico",
+  "ess_1440": "idéntico",
+  "tarjetas_390": "idéntico",
+  "tps_390": "idéntico",
+  "mis_390": "idéntico",
+  "dss_390": "idéntico",
+  "ess_390": "idéntico"
+ },
+ "capturas": {
+  "vista_dss_1440.png": {
+   "pct": 0,
+   "tam_antes": "1440×900",
+   "tam_despues": "1440×900"
+  },
+  "vista_dss_390.png": {
+   "pct": 0,
+   "tam_antes": "390×1812",
+   "tam_despues": "390×1812"
+  },
+  "vista_ess_1440.png": {
+   "pct": 0,
+   "tam_antes": "1440×900",
+   "tam_despues": "1440×900"
+  },
+  "vista_ess_390.png": {
+   "pct": 0,
+   "tam_antes": "390×2134",
+   "tam_despues": "390×2134"
+  },
+  "vista_mis_1440.png": {
+   "pct": 0,
+   "tam_antes": "1440×900",
+   "tam_despues": "1440×900"
+  },
+  "vista_mis_390.png": {
+   "pct": 0,
+   "tam_antes": "390×2144",
+   "tam_despues": "390×2144"
+  },
+  "vista_tps_1440.png": {
+   "pct": 0,
+   "tam_antes": "1440×900",
+   "tam_despues": "1440×900"
+  },
+  "vista_tps_390.png": {
+   "pct": 0,
+   "tam_antes": "390×1835",
+   "tam_despues": "390×1835"
+  }
+ },
+ "kit": {
+  "kit_0.png": {
+   "pct": 0,
+   "tam_antes": "1425×900",
+   "tam_despues": "1425×900"
+  },
+  "kit_100.png": {
+   "pct": 0,
+   "tam_antes": "1425×900",
+   "tam_despues": "1425×900"
+  },
+  "kit_25.png": {
+   "pct": 0,
+   "tam_antes": "1425×900",
+   "tam_despues": "1425×900"
+  },
+  "kit_50.png": {
+   "pct": 0,
+   "tam_antes": "1425×900",
+   "tam_despues": "1425×900"
+  },
+  "kit_75.png": {
+   "pct": 0,
+   "tam_antes": "1425×900",
+   "tam_despues": "1425×900"
+  }
+ }
+}

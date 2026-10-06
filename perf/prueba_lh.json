@@ -1,0 +1,32 @@
+{
+  "fecha": "2026-10-03T17:57:30.756Z",
+  "base": "http://localhost:8790",
+  "lighthouse": {
+    "movil": {
+      "lcp_ms": 2713,
+      "tbt_ms": 6,
+      "cls": 0,
+      "fcp_ms": 677,
+      "bytes_kb": 365,
+      "peticiones": 10,
+      "peticiones_kit": 0,
+      "kit_kb": 0,
+      "puntuacion": 96,
+      "lcp_elemento": "<b>",
+      "ejecuciones": 1
+    },
+    "escritorio": {
+      "lcp_ms": 652,
+      "tbt_ms": 0,
+      "cls": 0.0009,
+      "fcp_ms": 362,
+      "bytes_kb": 6661,
+      "peticiones": 204,
+      "peticiones_kit": 193,
+      "kit_kb": 6251,
+      "puntuacion": 100,
+      "lcp_elemento": "<b>",
+      "ejecuciones": 1
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "kaidora-perf",
+  "private": true,
+  "description": "Medidas de rendimiento de la web de Kaidora (Lighthouse + Playwright). No forma parte de la web publicada.",
+  "type": "module",
+  "devDependencies": {
+    "lighthouse": "^12.8.2",
+    "pixelmatch": "^6.0.0",
+    "playwright-core": "^1.63.0",
+    "pngjs": "^7.0.0",
+    "sharp": "^0.34.5"
+  }
+}

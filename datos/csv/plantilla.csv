@@ -1,0 +1,151 @@
+﻿id;departamento;nivel;puesto;genero;edad;discapacidad;antiguedad;jornada;contrato;salario_bruto_anual;horas_formacion_2026;sede
+E001;dir;Dirección;CEO · Director general;H;52;No;6;Completa;Indefinido;112000;24;PAT
+E002;dir;Dirección;CFO · Directora financiera;M;47;No;6;Completa;Indefinido;96000;36;PAT
+E003;dir;Dirección;COO · Director de operaciones;H;50;No;5;Completa;Indefinido;94000;29;PAT
+E004;dir;Dirección;CCO · Director comercial;H;45;No;7;Completa;Indefinido;92000;28;PAT
+E005;dir;Dirección;CPO · Directora de personas;M;44;No;6;Completa;Indefinido;86000;31;PAT
+E006;mon;Mando intermedio;Jefe/a de turno;M;52;No;2;Completa;Indefinido;32150;37;PAT
+E007;mon;Mando intermedio;Jefe/a de turno;M;45;No;2;Completa;Indefinido;34450;60;PAT
+E008;mon;Mando intermedio;Jefe/a de turno;H;58;No;2;Completa;Indefinido;34850;14;PAT
+E009;mon;Mando intermedio;Jefe/a de turno;H;50;No;3;Completa;Indefinido;32800;23;PAT
+E010;mon;Mando intermedio;Jefe/a de turno;H;35;No;1;Completa;Indefinido;33850;35;PAT
+E011;mon;Mando intermedio;Jefe/a de turno;H;54;No;2;Completa;Indefinido;33300;46;PAT
+E012;mon;Técnico/a y especialista;Técnico/a de calidad;M;55;No;0;Completa;Indefinido;29150;16;PAT
+E013;mon;Técnico/a y especialista;Técnico/a de calidad;M;27;No;2;Completa;Indefinido;28200;35;PAT
+E014;mon;Técnico/a y especialista;Técnico/a de calidad;M;49;No;1;Parcial;Indefinido;21850;36;PAT
+E015;mon;Técnico/a y especialista;Técnico/a de calidad;M;63;No;3;Parcial;Indefinido;21800;19;PAT
+E016;mon;Personal operativo;Operario/a de montaje;M;42;No;1;Completa;Indefinido;21050;21;PAT
+E017;mon;Personal operativo;Operario/a de montaje;H;41;No;2;Completa;Indefinido;21850;19;PAT
+E018;mon;Personal operativo;Operario/a de montaje;M;29;No;3;Completa;Indefinido;21850;17;PAT
+E019;mon;Personal operativo;Operario/a de montaje;H;26;No;1;Completa;Indefinido;21400;25;PAT
+E020;mon;Personal operativo;Operario/a de montaje;M;27;No;4;Completa;Indefinido;22000;18;PAT
+E021;mon;Personal operativo;Operario/a de montaje;H;34;No;3;Completa;Indefinido;21200;10;PAT
+E022;mon;Personal operativo;Operario/a de montaje;H;59;No;7;Completa;Indefinido;22150;13;PAT
+E023;mon;Personal operativo;Operario/a de montaje;H;26;No;2;Completa;Indefinido;21400;15;PAT
+E024;mon;Personal operativo;Operario/a de montaje;M;39;No;6;Completa;Indefinido;21450;15;PAT
+E025;mon;Personal operativo;Operario/a de montaje;M;21;No;2;Completa;Indefinido;20950;41;PAT
+E026;mon;Personal operativo;Operario/a de montaje;M;48;No;5;Completa;Indefinido;19500;29;PAT
+E027;mon;Personal operativo;Operario/a de montaje;M;46;No;6;Completa;Indefinido;21200;32;PAT
+E028;mon;Personal operativo;Operario/a de montaje;H;31;No;4;Completa;Indefinido;21400;16;PAT
+E029;mon;Personal operativo;Operario/a de montaje;H;60;No;3;Completa;Indefinido;20750;8;PAT
+E030;mon;Personal operativo;Operario/a de montaje;H;38;No;1;Parcial;Indefinido;15900;17;PAT
+E031;mon;Personal operativo;Operario/a de montaje;H;33;No;0;Parcial;Indefinido;15950;16;PAT
+E032;mon;Personal operativo;Operario/a de montaje;H;44;No;5;Completa;Indefinido;22300;18;PAT
+E033;mon;Personal operativo;Operario/a de montaje;M;27;No;3;Completa;Indefinido;21500;22;PAT
+E034;mon;Personal operativo;Operario/a de montaje;H;58;No;2;Completa;Indefinido;21750;7;PAT
+E035;mon;Personal operativo;Operario/a de montaje;M;46;No;3;Completa;Indefinido;22000;20;PAT
+E036;mon;Personal operativo;Operario/a de montaje;H;35;No;3;Completa;Indefinido;21850;22;PAT
+E037;mon;Personal operativo;Operario/a de montaje;M;32;Sí;6;Completa;Indefinido;21450;17;PAT
+E038;mon;Personal operativo;Operario/a de montaje;M;23;No;3;Completa;Temporal;21400;25;PAT
+E039;mon;Personal operativo;Operario/a de montaje;H;60;No;0;Completa;Temporal;21950;7;PAT
+E040;mon;Personal operativo;Operario/a de montaje;M;54;No;2;Completa;Indefinido;20200;19;PAT
+E041;mon;Personal operativo;Operario/a de montaje;H;45;No;1;Completa;Indefinido;21100;19;PAT
+E042;mon;Personal operativo;Operario/a de montaje;H;36;No;5;Completa;Indefinido;21850;15;PAT
+E043;mon;Personal operativo;Operario/a de montaje;H;22;No;3;Completa;Indefinido;22000;14;PAT
+E044;mon;Personal operativo;Operario/a de montaje;M;32;No;4;Parcial;Indefinido;16100;12;PAT
+E045;mon;Personal operativo;Operario/a de montaje;H;60;No;3;Completa;Indefinido;22350;9;PAT
+E046;mon;Personal operativo;Operario/a de montaje;M;20;No;2;Completa;Indefinido;20850;22;PAT
+E047;mon;Personal operativo;Operario/a de montaje;M;25;No;3;Completa;Indefinido;21750;20;PAT
+E048;mon;Personal operativo;Operario/a de montaje;M;56;Sí;1;Completa;Indefinido;21100;8;PAT
+E049;mon;Personal operativo;Operario/a de montaje;M;49;No;4;Completa;Indefinido;20900;15;PAT
+E050;mon;Personal operativo;Operario/a de montaje;H;21;No;2;Completa;Indefinido;21200;24;PAT
+E051;mon;Personal operativo;Operario/a de montaje;M;46;No;0;Completa;Indefinido;21250;14;PAT
+E052;mon;Personal operativo;Operario/a de montaje;M;33;No;6;Completa;Indefinido;20350;21;PAT
+E053;mon;Personal operativo;Operario/a de montaje;H;21;No;3;Completa;Temporal;22200;27;PAT
+E054;mon;Personal operativo;Operario/a de montaje;M;58;No;2;Completa;Indefinido;19850;13;PAT
+E055;mon;Personal operativo;Operario/a de montaje;M;38;No;3;Completa;Temporal;21050;15;PAT
+E056;mon;Personal operativo;Operario/a de montaje;M;51;No;2;Parcial;Indefinido;15400;29;PAT
+E057;mon;Personal operativo;Operario/a de montaje;M;57;No;4;Parcial;Indefinido;16000;15;PAT
+E058;mon;Personal operativo;Operario/a de montaje;H;59;No;5;Completa;Indefinido;21100;11;PAT
+E059;mon;Personal operativo;Operario/a de montaje;H;49;No;3;Completa;Indefinido;21300;16;PAT
+E060;mon;Personal operativo;Operario/a de montaje;M;27;No;3;Completa;Indefinido;21100;21;PAT
+E061;mon;Personal operativo;Operario/a de montaje;X;42;No;2;Completa;Indefinido;20800;16;PAT
+E062;mon;Personal operativo;Operario/a de montaje;H;43;No;5;Completa;Indefinido;22700;12;PAT
+E063;mon;Personal operativo;Operario/a de montaje;M;23;No;5;Completa;Indefinido;21900;25;PAT
+E064;log;Mando intermedio;Jefe/a de almacén;H;49;No;0;Completa;Indefinido;36600;31;RIB
+E065;log;Mando intermedio;Jefe/a de almacén;H;59;No;4;Completa;Indefinido;37250;27;RIB
+E066;log;Mando intermedio;Jefe/a de almacén;H;38;No;3;Completa;Indefinido;38450;27;RIB
+E067;log;Personal operativo;Carretillero/a;H;25;No;2;Completa;Indefinido;25150;11;RIB
+E068;log;Personal operativo;Mozo/a de almacén;H;51;No;4;Completa;Temporal;24150;14;RIB
+E069;log;Personal operativo;Mozo/a de almacén;M;39;No;7;Completa;Indefinido;22550;23;RIB
+E070;log;Personal operativo;Mozo/a de almacén;H;42;No;1;Completa;Indefinido;22650;17;RIB
+E071;log;Personal operativo;Mozo/a de almacén;H;56;No;7;Completa;Indefinido;24100;9;RIB
+E072;log;Personal operativo;Carretillero/a;H;40;No;5;Completa;Indefinido;23750;25;RIB
+E073;log;Personal operativo;Mozo/a de almacén;M;60;No;1;Parcial;Indefinido;16200;8;RIB
+E074;log;Personal operativo;Mozo/a de almacén;H;30;No;5;Completa;Indefinido;23000;26;RIB
+E075;log;Personal operativo;Mozo/a de almacén;H;46;No;3;Completa;Temporal;21000;21;RIB
+E076;log;Personal operativo;Mozo/a de almacén;H;46;No;4;Completa;Indefinido;25550;23;RIB
+E077;log;Personal operativo;Carretillero/a;M;40;No;7;Completa;Indefinido;22200;13;RIB
+E078;log;Personal operativo;Mozo/a de almacén;H;54;No;6;Completa;Indefinido;23000;15;RIB
+E079;log;Personal operativo;Mozo/a de almacén;H;31;No;1;Completa;Indefinido;25150;18;RIB
+E080;log;Personal operativo;Mozo/a de almacén;H;20;No;2;Completa;Indefinido;21000;30;RIB
+E081;log;Personal operativo;Mozo/a de almacén;H;43;No;2;Completa;Indefinido;21350;19;RIB
+E082;log;Personal operativo;Carretillero/a;H;60;No;1;Completa;Indefinido;23300;8;RIB
+E083;log;Personal operativo;Mozo/a de almacén;M;33;No;1;Completa;Indefinido;21450;16;RIB
+E084;log;Personal operativo;Mozo/a de almacén;H;54;No;7;Completa;Temporal;23450;24;RIB
+E085;log;Personal operativo;Mozo/a de almacén;H;50;No;2;Completa;Indefinido;21200;15;RIB
+E086;log;Personal operativo;Mozo/a de almacén;H;46;No;2;Completa;Indefinido;23450;29;RIB
+E087;log;Personal operativo;Carretillero/a;H;19;No;0;Completa;Indefinido;27000;20;RIB
+E088;log;Personal operativo;Mozo/a de almacén;H;27;No;2;Completa;Indefinido;24550;26;RIB
+E089;log;Personal operativo;Mozo/a de almacén;M;30;No;4;Completa;Indefinido;21750;16;RIB
+E090;log;Personal operativo;Mozo/a de almacén;M;32;No;2;Parcial;Indefinido;16800;14;RIB
+E091;log;Personal operativo;Mozo/a de almacén;H;23;No;3;Completa;Indefinido;23700;18;RIB
+E092;com;Mando intermedio;Responsable de compras;M;46;No;2;Completa;Indefinido;43950;27;PAT
+E093;com;Técnico/a y especialista;Técnico/a de compras;H;51;No;5;Completa;Indefinido;31400;36;PAT
+E094;com;Técnico/a y especialista;Técnico/a de compras;H;28;No;4;Completa;Indefinido;31650;36;PAT
+E095;com;Técnico/a y especialista;Técnico/a de compras;M;52;No;2;Completa;Indefinido;30450;27;PAT
+E096;com;Técnico/a y especialista;Técnico/a de compras;M;58;No;7;Parcial;Indefinido;21750;19;PAT
+E097;com;Técnico/a y especialista;Técnico/a de compras;H;50;No;7;Completa;Indefinido;31400;24;PAT
+E098;b2b;Mando intermedio;Key account manager;H;55;No;6;Parcial;Indefinido;37750;19;PAT
+E099;b2b;Técnico/a y especialista;Comercial;H;55;No;2;Completa;Indefinido;33450;13;PAT
+E100;b2b;Técnico/a y especialista;Comercial;M;51;No;5;Completa;Indefinido;33300;24;PAT
+E101;b2b;Técnico/a y especialista;Comercial;M;33;No;4;Completa;Indefinido;30750;36;PAT
+E102;b2b;Técnico/a y especialista;Comercial;H;51;No;4;Completa;Indefinido;34950;25;PAT
+E103;b2b;Técnico/a y especialista;Comercial;M;42;No;1;Completa;Indefinido;35400;36;PAT
+E104;b2b;Técnico/a y especialista;Comercial;M;39;No;4;Parcial;Indefinido;24100;28;PAT
+E105;b2b;Técnico/a y especialista;Comercial;M;52;No;7;Completa;Indefinido;32100;44;PAT
+E106;b2b;Técnico/a y especialista;Comercial;H;28;No;4;Completa;Indefinido;36000;35;PAT
+E107;b2b;Técnico/a y especialista;Comercial;M;48;No;4;Completa;Indefinido;31350;20;PAT
+E108;b2b;Técnico/a y especialista;Comercial;H;56;No;1;Completa;Indefinido;34000;21;PAT
+E109;b2b;Técnico/a y especialista;Comercial;H;30;No;6;Completa;Indefinido;35150;46;PAT
+E110;b2b;Técnico/a y especialista;Comercial;H;29;No;2;Completa;Indefinido;33700;34;PAT
+E111;b2b;Técnico/a y especialista;Comercial;H;35;No;3;Completa;Indefinido;36200;27;PAT
+E112;eco;Mando intermedio;Responsable de marketplaces;M;41;No;2;Completa;Indefinido;43500;51;PAT
+E113;eco;Técnico/a y especialista;Especialista e-commerce;M;45;No;4;Completa;Indefinido;32150;27;PAT
+E114;eco;Técnico/a y especialista;Diseño y contenidos;H;33;No;0;Completa;Indefinido;28200;35;PAT
+E115;eco;Técnico/a y especialista;Especialista e-commerce;M;24;No;3;Parcial;Indefinido;23800;45;PAT
+E116;eco;Técnico/a y especialista;Diseño y contenidos;H;56;No;4;Completa;Indefinido;29400;11;PAT
+E117;eco;Técnico/a y especialista;Especialista e-commerce;M;42;No;7;Completa;Indefinido;31700;21;PAT
+E118;eco;Técnico/a y especialista;Diseño y contenidos;H;27;No;2;Completa;Indefinido;29150;25;PAT
+E119;eco;Técnico/a y especialista;Especialista e-commerce;M;48;No;4;Parcial;Indefinido;24750;32;PAT
+E120;eco;Técnico/a y especialista;Diseño y contenidos;H;58;No;6;Completa;Indefinido;29050;16;PAT
+E121;eco;Técnico/a y especialista;Especialista e-commerce;M;25;No;2;Parcial;Indefinido;23700;39;PAT
+E122;eco;Técnico/a y especialista;Diseño y contenidos;H;57;No;3;Completa;Indefinido;30150;10;PAT
+E123;eco;Técnico/a y especialista;Especialista e-commerce;H;34;No;6;Completa;Indefinido;32400;26;PAT
+E124;sac;Mando intermedio;Coordinador/a de atención;M;41;Sí;1;Completa;Indefinido;29300;48;PAT
+E125;sac;Personal operativo;Agente de atención al cliente;M;36;No;2;Parcial;Indefinido;15950;20;PAT
+E126;sac;Personal operativo;Agente de atención al cliente;H;62;No;5;Completa;Indefinido;22150;8;PAT
+E127;sac;Personal operativo;Agente de atención al cliente;M;61;No;5;Completa;Indefinido;22250;9;PAT
+E128;sac;Personal operativo;Agente de atención al cliente;M;49;No;1;Completa;Indefinido;21650;26;PAT
+E129;sac;Personal operativo;Agente de atención al cliente;H;62;No;1;Completa;Indefinido;22100;13;PAT
+E130;sac;Personal operativo;Agente de atención al cliente;M;22;No;0;Completa;Indefinido;20400;32;PAT
+E131;sac;Personal operativo;Agente de atención al cliente;M;19;No;1;Completa;Indefinido;21700;22;PAT
+E132;sac;Personal operativo;Agente de atención al cliente;M;21;No;2;Completa;Indefinido;20900;21;PAT
+E133;sac;Personal operativo;Agente de atención al cliente;X;60;No;6;Completa;Indefinido;22150;5;PAT
+E134;fin;Mando intermedio;Responsable de control de gestión;H;41;No;2;Completa;Indefinido;53350;26;PAT
+E135;fin;Técnico/a y especialista;Técnico/a contable;M;30;No;0;Completa;Indefinido;28600;33;PAT
+E136;fin;Técnico/a y especialista;Técnico/a contable;M;54;No;0;Parcial;Indefinido;22300;22;PAT
+E137;fin;Técnico/a y especialista;Técnico/a contable;M;58;No;5;Completa;Indefinido;30150;16;PAT
+E138;fin;Técnico/a y especialista;Técnico/a contable;M;29;No;3;Completa;Indefinido;31700;34;PAT
+E139;fin;Técnico/a y especialista;Técnico/a contable;H;49;No;5;Completa;Indefinido;31400;31;PAT
+E140;fin;Técnico/a y especialista;Técnico/a contable;M;58;No;2;Completa;Indefinido;31250;18;PAT
+E141;rrhh;Mando intermedio;Responsable de personas;M;50;No;3;Completa;Indefinido;49400;32;PAT
+E142;rrhh;Técnico/a y especialista;Técnico/a de RR. HH.;M;34;No;3;Completa;Indefinido;28950;39;PAT
+E143;rrhh;Técnico/a y especialista;Técnico/a de RR. HH.;M;54;No;7;Completa;Indefinido;29250;40;PAT
+E144;rrhh;Técnico/a y especialista;Técnico/a de RR. HH.;M;31;No;3;Completa;Indefinido;29650;35;PAT
+E145;it;Mando intermedio;Responsable de sistemas;H;49;No;2;Completa;Indefinido;57000;27;PAT
+E146;it;Técnico/a y especialista;Analista de datos;H;34;No;4;Completa;Indefinido;37800;49;PAT
+E147;it;Técnico/a y especialista;Técnico/a de sistemas;H;49;No;2;Completa;Indefinido;35050;36;PAT
+E148;it;Técnico/a y especialista;Analista de datos;H;31;Sí;4;Parcial;Indefinido;27400;34;PAT
+E149;it;Técnico/a y especialista;Técnico/a de sistemas;H;58;No;2;Parcial;Indefinido;24550;22;PAT
+E150;it;Técnico/a y especialista;Analista de datos;H;44;No;6;Completa;Indefinido;36250;33;PAT

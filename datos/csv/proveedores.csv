@@ -1,0 +1,13 @@
+﻿id;nombre;ciudad;categoria;plazo_dias;otif;local;centro_especial_empleo;gasto_2026_eur;incidencias_2026
+S01;Textil Sanitario Levante;Alzira (Valencia);Gasas y vendas;5;0.97;True;False;852500.0;1
+S02;MediPlast Iberia;Barcelona;Apósitos y esparadrapo;7;0.95;False;False;746000.0;2
+S03;Nitrilo Global Supply;Kuala Lumpur (Malasia);Guantes de nitrilo;45;0.86;False;False;479500.0;6
+S04;Laboratorios Aqualis;Murcia;Suero y antisépticos;8;0.96;False;False;426300.0;1
+S05;Termoprotect;Braga (Portugal);Mantas y frío instantáneo;10;0.93;False;False;373000.0;3
+S06;GlucoCare Europe;Colonia (Alemania);Tabletas de glucosa;14;0.84;False;False;373000.0;4
+S07;EcoPack Valencia;Quart de Poblet (Valencia);Cajas de cartón reciclado;4;0.98;True;False;639400.0;1
+S08;Shenzhen EVA Cases;Shenzhen (China);Estuches rígidos EVA;60;0.81;False;False;426300.0;6
+S09;CEE Manipulats Horta Nord;Burjassot (Valencia);Manipulado y etiquetado;3;0.99;True;True;239800.0;0
+S10;Instrumental Médico Ebro;Zaragoza;Tijeras, pinzas y termómetros;9;0.94;False;False;319700.0;2
+S11;Gràfiques Túria;Valencia;Folletos y etiquetas;4;0.97;True;False;186500.0;1
+S12;RCP Safe;Lyon (Francia);Mascarillas RCP;12;0.92;False;False;159800.0;5

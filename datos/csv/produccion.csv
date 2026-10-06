@@ -1,0 +1,497 @@
+﻿mes;nave;linea;uds_montadas
+2022-01;Nave Paterna;Empresa y oficina;3917
+2022-01;Nave Paterna;Vehículo;7350
+2022-01;Nave Paterna;Infantil;3724
+2022-01;Nave Paterna;Familia y hogar;5063
+2022-01;Nave Paterna;Viaje;4633
+2022-01;Nave Paterna;Deporte y outdoor;4014
+2022-01;Nave Paterna;Personalizados;321
+2022-02;Nave Paterna;Empresa y oficina;3392
+2022-02;Nave Paterna;Vehículo;8283
+2022-02;Nave Paterna;Infantil;4033
+2022-02;Nave Paterna;Familia y hogar;4123
+2022-02;Nave Paterna;Viaje;4463
+2022-02;Nave Paterna;Deporte y outdoor;4694
+2022-02;Nave Paterna;Personalizados;303
+2022-03;Nave Paterna;Empresa y oficina;3039
+2022-03;Nave Paterna;Vehículo;9257
+2022-03;Nave Paterna;Infantil;4744
+2022-03;Nave Paterna;Familia y hogar;5015
+2022-03;Nave Paterna;Viaje;6988
+2022-03;Nave Paterna;Deporte y outdoor;5646
+2022-03;Nave Paterna;Personalizados;290
+2022-04;Nave Paterna;Empresa y oficina;3076
+2022-04;Nave Paterna;Vehículo;9285
+2022-04;Nave Paterna;Infantil;4962
+2022-04;Nave Paterna;Familia y hogar;4988
+2022-04;Nave Paterna;Viaje;9020
+2022-04;Nave Paterna;Deporte y outdoor;7451
+2022-04;Nave Paterna;Personalizados;351
+2022-05;Nave Paterna;Empresa y oficina;2760
+2022-05;Nave Paterna;Vehículo;10561
+2022-05;Nave Paterna;Infantil;5194
+2022-05;Nave Paterna;Familia y hogar;5085
+2022-05;Nave Paterna;Viaje;9045
+2022-05;Nave Paterna;Deporte y outdoor;8773
+2022-05;Nave Paterna;Personalizados;316
+2022-06;Nave Paterna;Empresa y oficina;2809
+2022-06;Nave Paterna;Vehículo;14727
+2022-06;Nave Paterna;Infantil;6520
+2022-06;Nave Paterna;Familia y hogar;5698
+2022-06;Nave Paterna;Viaje;13373
+2022-06;Nave Paterna;Deporte y outdoor;9697
+2022-06;Nave Paterna;Personalizados;326
+2022-07;Nave Paterna;Empresa y oficina;2460
+2022-07;Nave Paterna;Vehículo;18408
+2022-07;Nave Paterna;Infantil;6129
+2022-07;Nave Paterna;Familia y hogar;6000
+2022-07;Nave Paterna;Viaje;17000
+2022-07;Nave Paterna;Deporte y outdoor;9952
+2022-07;Nave Paterna;Personalizados;238
+2022-08;Nave Paterna;Empresa y oficina;1944
+2022-08;Nave Paterna;Vehículo;13152
+2022-08;Nave Paterna;Infantil;5629
+2022-08;Nave Paterna;Familia y hogar;4732
+2022-08;Nave Paterna;Viaje;10787
+2022-08;Nave Paterna;Deporte y outdoor;7451
+2022-08;Nave Paterna;Personalizados;207
+2022-09;Nave Paterna;Empresa y oficina;4101
+2022-09;Nave Paterna;Vehículo;10963
+2022-09;Nave Paterna;Infantil;8568
+2022-09;Nave Paterna;Familia y hogar;5712
+2022-09;Nave Paterna;Viaje;7857
+2022-09;Nave Paterna;Deporte y outdoor;7764
+2022-09;Nave Paterna;Personalizados;458
+2022-10;Nave Paterna;Empresa y oficina;4271
+2022-10;Nave Paterna;Vehículo;10384
+2022-10;Nave Paterna;Infantil;6243
+2022-10;Nave Paterna;Familia y hogar;6688
+2022-10;Nave Paterna;Viaje;7519
+2022-10;Nave Paterna;Deporte y outdoor;7164
+2022-10;Nave Paterna;Personalizados;597
+2022-11;Nave Paterna;Empresa y oficina;4004
+2022-11;Nave Paterna;Vehículo;14146
+2022-11;Nave Paterna;Infantil;9355
+2022-11;Nave Paterna;Familia y hogar;10243
+2022-11;Nave Paterna;Viaje;9298
+2022-11;Nave Paterna;Deporte y outdoor;7320
+2022-11;Nave Paterna;Personalizados;542
+2022-12;Nave Paterna;Empresa y oficina;3793
+2022-12;Nave Paterna;Vehículo;7223
+2022-12;Nave Paterna;Infantil;6555
+2022-12;Nave Paterna;Familia y hogar;8368
+2022-12;Nave Paterna;Viaje;7689
+2022-12;Nave Paterna;Deporte y outdoor;5164
+2022-12;Nave Paterna;Personalizados;453
+2023-01;Nave Paterna;Empresa y oficina;4646
+2023-01;Nave Paterna;Vehículo;7384
+2023-01;Nave Paterna;Infantil;4083
+2023-01;Nave Paterna;Familia y hogar;4962
+2023-01;Nave Paterna;Viaje;4233
+2023-01;Nave Paterna;Deporte y outdoor;4554
+2023-01;Nave Paterna;Personalizados;533
+2023-02;Nave Paterna;Empresa y oficina;3574
+2023-02;Nave Paterna;Vehículo;8156
+2023-02;Nave Paterna;Infantil;4615
+2023-02;Nave Paterna;Familia y hogar;4201
+2023-02;Nave Paterna;Viaje;4895
+2023-02;Nave Paterna;Deporte y outdoor;5134
+2023-02;Nave Paterna;Personalizados;469
+2023-03;Nave Paterna;Empresa y oficina;3345
+2023-03;Nave Paterna;Vehículo;9317
+2023-03;Nave Paterna;Infantil;5285
+2023-03;Nave Paterna;Familia y hogar;5085
+2023-03;Nave Paterna;Viaje;7191
+2023-03;Nave Paterna;Deporte y outdoor;6762
+2023-03;Nave Paterna;Diabetes;971
+2023-03;Nave Paterna;Personalizados;527
+2023-04;Nave Paterna;Empresa y oficina;3493
+2023-04;Nave Paterna;Vehículo;10319
+2023-04;Nave Paterna;Infantil;5001
+2023-04;Nave Paterna;Familia y hogar;5106
+2023-04;Nave Paterna;Viaje;9288
+2023-04;Nave Paterna;Deporte y outdoor;7840
+2023-04;Nave Paterna;Diabetes;1340
+2023-04;Nave Paterna;Personalizados;470
+2023-05;Nave Paterna;Empresa y oficina;3283
+2023-05;Nave Paterna;Vehículo;11015
+2023-05;Nave Paterna;Infantil;5748
+2023-05;Nave Paterna;Familia y hogar;5390
+2023-05;Nave Paterna;Viaje;10371
+2023-05;Nave Paterna;Deporte y outdoor;8544
+2023-05;Nave Paterna;Diabetes;1840
+2023-05;Nave Paterna;Personalizados;520
+2023-06;Nave Paterna;Empresa y oficina;3401
+2023-06;Nave Paterna;Vehículo;14563
+2023-06;Nave Paterna;Infantil;6556
+2023-06;Nave Paterna;Familia y hogar;5833
+2023-06;Nave Paterna;Viaje;15129
+2023-06;Nave Paterna;Deporte y outdoor;10184
+2023-06;Nave Paterna;Diabetes;2358
+2023-06;Nave Paterna;Personalizados;518
+2023-07;Nave Paterna;Empresa y oficina;3133
+2023-07;Nave Paterna;Vehículo;19514
+2023-07;Nave Paterna;Infantil;6953
+2023-07;Nave Paterna;Familia y hogar;6148
+2023-07;Nave Paterna;Viaje;16631
+2023-07;Nave Paterna;Deporte y outdoor;10768
+2023-07;Nave Paterna;Diabetes;2814
+2023-07;Nave Paterna;Personalizados;407
+2023-08;Nave Paterna;Empresa y oficina;2187
+2023-08;Nave Paterna;Vehículo;14404
+2023-08;Nave Paterna;Infantil;5639
+2023-08;Nave Paterna;Familia y hogar;4723
+2023-08;Nave Paterna;Viaje;11235
+2023-08;Nave Paterna;Deporte y outdoor;8963
+2023-08;Nave Paterna;Diabetes;2585
+2023-08;Nave Paterna;Personalizados;339
+2023-09;Nave Paterna;Empresa y oficina;5034
+2023-09;Nave Paterna;Vehículo;11908
+2023-09;Nave Paterna;Infantil;8979
+2023-09;Nave Paterna;Familia y hogar;6224
+2023-09;Nave Paterna;Viaje;8864
+2023-09;Nave Paterna;Deporte y outdoor;7399
+2023-09;Nave Paterna;Diabetes;3509
+2023-09;Nave Paterna;Personalizados;718
+2023-10;Nave Paterna;Empresa y oficina;5002
+2023-10;Nave Paterna;Vehículo;11095
+2023-10;Nave Paterna;Infantil;6400
+2023-10;Nave Paterna;Familia y hogar;7438
+2023-10;Nave Paterna;Viaje;7730
+2023-10;Nave Paterna;Deporte y outdoor;7676
+2023-10;Nave Paterna;Diabetes;4173
+2023-10;Nave Paterna;Personalizados;823
+2023-11;Nave Paterna;Empresa y oficina;4741
+2023-11;Nave Paterna;Vehículo;15086
+2023-11;Nave Paterna;Infantil;8838
+2023-11;Nave Paterna;Familia y hogar;9959
+2023-11;Nave Paterna;Viaje;9285
+2023-11;Nave Paterna;Deporte y outdoor;7793
+2023-11;Nave Paterna;Diabetes;4935
+2023-11;Nave Paterna;Personalizados;908
+2023-12;Nave Paterna;Empresa y oficina;4461
+2023-12;Nave Paterna;Vehículo;7580
+2023-12;Nave Paterna;Infantil;6982
+2023-12;Nave Paterna;Familia y hogar;8343
+2023-12;Nave Paterna;Viaje;7612
+2023-12;Nave Paterna;Deporte y outdoor;5292
+2023-12;Nave Paterna;Diabetes;3428
+2023-12;Nave Paterna;Personalizados;667
+2024-01;Nave Paterna;Empresa y oficina;5295
+2024-01;Nave Paterna;Vehículo;7868
+2024-01;Nave Paterna;Infantil;4022
+2024-01;Nave Paterna;Familia y hogar;5214
+2024-01;Nave Paterna;Viaje;5212
+2024-01;Nave Paterna;Deporte y outdoor;4576
+2024-01;Nave Paterna;Diabetes;3123
+2024-01;Nave Paterna;Personalizados;840
+2024-02;Nave Paterna;Empresa y oficina;4790
+2024-02;Nave Paterna;Vehículo;8690
+2024-02;Nave Paterna;Infantil;4637
+2024-02;Nave Paterna;Familia y hogar;5094
+2024-02;Nave Paterna;Viaje;5427
+2024-02;Nave Paterna;Deporte y outdoor;5603
+2024-02;Nave Paterna;Diabetes;2811
+2024-02;Nave Paterna;Personalizados;663
+2024-03;Nave Paterna;Empresa y oficina;3651
+2024-03;Nave Paterna;Vehículo;10590
+2024-03;Nave Paterna;Infantil;5257
+2024-03;Nave Paterna;Familia y hogar;5401
+2024-03;Nave Paterna;Viaje;7879
+2024-03;Nave Paterna;Deporte y outdoor;6117
+2024-03;Nave Paterna;Diabetes;3244
+2024-03;Nave Paterna;Personalizados;770
+2024-04;Nave Paterna;Empresa y oficina;3749
+2024-04;Nave Paterna;Vehículo;11092
+2024-04;Nave Paterna;Infantil;5509
+2024-04;Nave Paterna;Familia y hogar;5301
+2024-04;Nave Paterna;Viaje;9748
+2024-04;Nave Paterna;Deporte y outdoor;8200
+2024-04;Nave Paterna;Diabetes;3073
+2024-04;Nave Paterna;Personalizados;724
+2024-05;Nave Paterna;Empresa y oficina;3828
+2024-05;Nave Paterna;Vehículo;12056
+2024-05;Nave Paterna;Infantil;6225
+2024-05;Nave Paterna;Familia y hogar;5532
+2024-05;Nave Paterna;Viaje;9836
+2024-05;Nave Paterna;Deporte y outdoor;8866
+2024-05;Nave Paterna;Diabetes;3523
+2024-05;Nave Paterna;Personalizados;734
+2024-06;Nave Paterna;Empresa y oficina;3894
+2024-06;Nave Paterna;Vehículo;15921
+2024-06;Nave Paterna;Infantil;6642
+2024-06;Nave Paterna;Familia y hogar;6035
+2024-06;Nave Paterna;Viaje;15509
+2024-06;Nave Paterna;Deporte y outdoor;10938
+2024-06;Nave Paterna;Diabetes;4011
+2024-06;Nave Paterna;Personalizados;781
+2024-07;Nave Paterna;Empresa y oficina;1350
+2024-07;Nave Riba-roja;Empresa y oficina;2025
+2024-07;Nave Paterna;Vehículo;13771
+2024-07;Nave Riba-roja;Vehículo;5902
+2024-07;Nave Paterna;Infantil;6770
+2024-07;Nave Paterna;Familia y hogar;6504
+2024-07;Nave Paterna;Viaje;16264
+2024-07;Nave Paterna;Deporte y outdoor;10958
+2024-07;Nave Paterna;Diabetes;3717
+2024-07;Nave Riba-roja;Personalizados;535
+2024-08;Nave Paterna;Empresa y oficina;1115
+2024-08;Nave Riba-roja;Empresa y oficina;1673
+2024-08;Nave Paterna;Vehículo;10020
+2024-08;Nave Riba-roja;Vehículo;4294
+2024-08;Nave Paterna;Infantil;6321
+2024-08;Nave Paterna;Familia y hogar;4790
+2024-08;Nave Paterna;Viaje;11093
+2024-08;Nave Paterna;Deporte y outdoor;7913
+2024-08;Nave Paterna;Diabetes;2917
+2024-08;Nave Riba-roja;Personalizados;484
+2024-09;Nave Paterna;Empresa y oficina;2101
+2024-09;Nave Riba-roja;Empresa y oficina;3151
+2024-09;Nave Paterna;Vehículo;7749
+2024-09;Nave Riba-roja;Vehículo;3321
+2024-09;Nave Paterna;Infantil;9049
+2024-09;Nave Paterna;Familia y hogar;7094
+2024-09;Nave Paterna;Viaje;8548
+2024-09;Nave Paterna;Deporte y outdoor;8682
+2024-09;Nave Paterna;Diabetes;3830
+2024-09;Nave Riba-roja;Personalizados;1009
+2024-10;Nave Paterna;Empresa y oficina;2206
+2024-10;Nave Riba-roja;Empresa y oficina;3309
+2024-10;Nave Paterna;Vehículo;8432
+2024-10;Nave Riba-roja;Vehículo;3614
+2024-10;Nave Paterna;Infantil;6799
+2024-10;Nave Paterna;Familia y hogar;7847
+2024-10;Nave Paterna;Viaje;8217
+2024-10;Nave Paterna;Deporte y outdoor;8222
+2024-10;Nave Paterna;Diabetes;4506
+2024-10;Nave Riba-roja;Personalizados;1160
+2024-11;Nave Paterna;Empresa y oficina;2095
+2024-11;Nave Riba-roja;Empresa y oficina;3143
+2024-11;Nave Paterna;Vehículo;10567
+2024-11;Nave Riba-roja;Vehículo;4529
+2024-11;Nave Paterna;Infantil;10207
+2024-11;Nave Paterna;Familia y hogar;11205
+2024-11;Nave Paterna;Viaje;10666
+2024-11;Nave Paterna;Deporte y outdoor;8618
+2024-11;Nave Paterna;Diabetes;6080
+2024-11;Nave Riba-roja;Personalizados;1238
+2024-12;Nave Paterna;Empresa y oficina;1943
+2024-12;Nave Riba-roja;Empresa y oficina;2914
+2024-12;Nave Paterna;Vehículo;6324
+2024-12;Nave Riba-roja;Vehículo;2710
+2024-12;Nave Paterna;Infantil;7286
+2024-12;Nave Paterna;Familia y hogar;9449
+2024-12;Nave Paterna;Viaje;8493
+2024-12;Nave Paterna;Deporte y outdoor;5289
+2024-12;Nave Paterna;Diabetes;3364
+2024-12;Nave Riba-roja;Personalizados;820
+2025-01;Nave Paterna;Empresa y oficina;2637
+2025-01;Nave Riba-roja;Empresa y oficina;3955
+2025-01;Nave Paterna;Vehículo;6522
+2025-01;Nave Riba-roja;Vehículo;2795
+2025-01;Nave Paterna;Infantil;4591
+2025-01;Nave Paterna;Familia y hogar;5497
+2025-01;Nave Paterna;Viaje;5490
+2025-01;Nave Paterna;Deporte y outdoor;5444
+2025-01;Nave Paterna;Diabetes;3337
+2025-01;Nave Riba-roja;Personalizados;1205
+2025-02;Nave Paterna;Empresa y oficina;2078
+2025-02;Nave Riba-roja;Empresa y oficina;3116
+2025-02;Nave Paterna;Vehículo;7169
+2025-02;Nave Riba-roja;Vehículo;3072
+2025-02;Nave Paterna;Infantil;5080
+2025-02;Nave Paterna;Familia y hogar;5069
+2025-02;Nave Paterna;Viaje;5449
+2025-02;Nave Paterna;Deporte y outdoor;5795
+2025-02;Nave Paterna;Diabetes;3398
+2025-02;Nave Riba-roja;Personalizados;1187
+2025-03;Nave Paterna;Empresa y oficina;1841
+2025-03;Nave Riba-roja;Empresa y oficina;2761
+2025-03;Nave Paterna;Vehículo;8132
+2025-03;Nave Riba-roja;Vehículo;3485
+2025-03;Nave Paterna;Infantil;5645
+2025-03;Nave Paterna;Familia y hogar;5958
+2025-03;Nave Paterna;Viaje;8615
+2025-03;Nave Paterna;Deporte y outdoor;7819
+2025-03;Nave Paterna;Diabetes;3759
+2025-03;Nave Riba-roja;Personalizados;1159
+2025-04;Nave Paterna;Empresa y oficina;1824
+2025-04;Nave Riba-roja;Empresa y oficina;2736
+2025-04;Nave Paterna;Vehículo;9354
+2025-04;Nave Riba-roja;Vehículo;4009
+2025-04;Nave Paterna;Infantil;5592
+2025-04;Nave Paterna;Familia y hogar;5880
+2025-04;Nave Paterna;Viaje;11344
+2025-04;Nave Paterna;Deporte y outdoor;9637
+2025-04;Nave Paterna;Diabetes;3526
+2025-04;Nave Riba-roja;Personalizados;1094
+2025-05;Nave Paterna;Empresa y oficina;1963
+2025-05;Nave Riba-roja;Empresa y oficina;2944
+2025-05;Nave Paterna;Vehículo;8790
+2025-05;Nave Riba-roja;Vehículo;3767
+2025-05;Nave Paterna;Infantil;6286
+2025-05;Nave Paterna;Familia y hogar;6007
+2025-05;Nave Paterna;Viaje;11384
+2025-05;Nave Paterna;Deporte y outdoor;10185
+2025-05;Nave Paterna;Diabetes;3792
+2025-05;Nave Riba-roja;Personalizados;1051
+2025-06;Nave Paterna;Empresa y oficina;2118
+2025-06;Nave Riba-roja;Empresa y oficina;3178
+2025-06;Nave Paterna;Vehículo;13464
+2025-06;Nave Riba-roja;Vehículo;5770
+2025-06;Nave Paterna;Infantil;7272
+2025-06;Nave Paterna;Familia y hogar;6592
+2025-06;Nave Paterna;Viaje;16470
+2025-06;Nave Paterna;Deporte y outdoor;12350
+2025-06;Nave Paterna;Diabetes;4203
+2025-06;Nave Riba-roja;Personalizados;1163
+2025-07;Nave Paterna;Empresa y oficina;1697
+2025-07;Nave Riba-roja;Empresa y oficina;2545
+2025-07;Nave Paterna;Vehículo;15810
+2025-07;Nave Riba-roja;Vehículo;6776
+2025-07;Nave Paterna;Infantil;8532
+2025-07;Nave Paterna;Familia y hogar;6563
+2025-07;Nave Paterna;Viaje;20150
+2025-07;Nave Paterna;Deporte y outdoor;13533
+2025-07;Nave Paterna;Diabetes;3955
+2025-07;Nave Riba-roja;Personalizados;856
+2025-08;Nave Paterna;Empresa y oficina;1252
+2025-08;Nave Riba-roja;Empresa y oficina;1878
+2025-08;Nave Paterna;Vehículo;12048
+2025-08;Nave Riba-roja;Vehículo;5163
+2025-08;Nave Paterna;Infantil;6693
+2025-08;Nave Paterna;Familia y hogar;5762
+2025-08;Nave Paterna;Viaje;12603
+2025-08;Nave Paterna;Deporte y outdoor;9355
+2025-08;Nave Paterna;Diabetes;3292
+2025-08;Nave Riba-roja;Personalizados;758
+2025-09;Nave Paterna;Empresa y oficina;2661
+2025-09;Nave Riba-roja;Empresa y oficina;3992
+2025-09;Nave Paterna;Vehículo;9750
+2025-09;Nave Riba-roja;Vehículo;4179
+2025-09;Nave Paterna;Infantil;9339
+2025-09;Nave Paterna;Familia y hogar;7834
+2025-09;Nave Paterna;Viaje;9636
+2025-09;Nave Paterna;Deporte y outdoor;9368
+2025-09;Nave Paterna;Diabetes;4411
+2025-09;Nave Riba-roja;Personalizados;1567
+2025-10;Nave Paterna;Empresa y oficina;2966
+2025-10;Nave Riba-roja;Empresa y oficina;4449
+2025-10;Nave Paterna;Vehículo;9488
+2025-10;Nave Riba-roja;Vehículo;4066
+2025-10;Nave Paterna;Infantil;7618
+2025-10;Nave Paterna;Familia y hogar;8286
+2025-10;Nave Paterna;Viaje;10417
+2025-10;Nave Paterna;Deporte y outdoor;8674
+2025-10;Nave Paterna;Diabetes;5223
+2025-10;Nave Riba-roja;Personalizados;1617
+2025-11;Nave Paterna;Empresa y oficina;2426
+2025-11;Nave Riba-roja;Empresa y oficina;3639
+2025-11;Nave Paterna;Vehículo;11594
+2025-11;Nave Riba-roja;Vehículo;4969
+2025-11;Nave Paterna;Infantil;10064
+2025-11;Nave Paterna;Familia y hogar;12221
+2025-11;Nave Paterna;Viaje;11827
+2025-11;Nave Paterna;Deporte y outdoor;9084
+2025-11;Nave Paterna;Diabetes;5641
+2025-11;Nave Riba-roja;Personalizados;1694
+2025-12;Nave Paterna;Empresa y oficina;2397
+2025-12;Nave Riba-roja;Empresa y oficina;3595
+2025-12;Nave Paterna;Vehículo;6104
+2025-12;Nave Riba-roja;Vehículo;2616
+2025-12;Nave Paterna;Infantil;7558
+2025-12;Nave Paterna;Familia y hogar;10006
+2025-12;Nave Paterna;Viaje;9341
+2025-12;Nave Paterna;Deporte y outdoor;6697
+2025-12;Nave Paterna;Diabetes;3870
+2025-12;Nave Riba-roja;Personalizados;1245
+2026-01;Nave Paterna;Empresa y oficina;3329
+2026-01;Nave Riba-roja;Empresa y oficina;4994
+2026-01;Nave Paterna;Vehículo;7759
+2026-01;Nave Riba-roja;Vehículo;3325
+2026-01;Nave Paterna;Infantil;5585
+2026-01;Nave Paterna;Familia y hogar;6145
+2026-01;Nave Paterna;Viaje;6358
+2026-01;Nave Paterna;Deporte y outdoor;5971
+2026-01;Nave Paterna;Diabetes;3969
+2026-01;Nave Riba-roja;Personalizados;1883
+2026-02;Nave Paterna;Empresa y oficina;3070
+2026-02;Nave Riba-roja;Empresa y oficina;4605
+2026-02;Nave Paterna;Vehículo;8194
+2026-02;Nave Riba-roja;Vehículo;3512
+2026-02;Nave Paterna;Infantil;6050
+2026-02;Nave Paterna;Familia y hogar;6335
+2026-02;Nave Paterna;Viaje;6569
+2026-02;Nave Paterna;Deporte y outdoor;6709
+2026-02;Nave Paterna;Diabetes;3874
+2026-02;Nave Riba-roja;Personalizados;1615
+2026-03;Nave Paterna;Empresa y oficina;2530
+2026-03;Nave Riba-roja;Empresa y oficina;3795
+2026-03;Nave Paterna;Vehículo;9449
+2026-03;Nave Riba-roja;Vehículo;4050
+2026-03;Nave Paterna;Infantil;6971
+2026-03;Nave Paterna;Familia y hogar;6706
+2026-03;Nave Paterna;Viaje;9705
+2026-03;Nave Paterna;Deporte y outdoor;8870
+2026-03;Nave Paterna;Diabetes;2634
+2026-03;Nave Riba-roja;Personalizados;1663
+2026-04;Nave Paterna;Empresa y oficina;2369
+2026-04;Nave Riba-roja;Empresa y oficina;3553
+2026-04;Nave Paterna;Vehículo;10188
+2026-04;Nave Riba-roja;Vehículo;4366
+2026-04;Nave Paterna;Infantil;6545
+2026-04;Nave Paterna;Familia y hogar;6751
+2026-04;Nave Paterna;Viaje;12796
+2026-04;Nave Paterna;Deporte y outdoor;10680
+2026-04;Nave Paterna;Diabetes;3582
+2026-04;Nave Riba-roja;Personalizados;1736
+2026-05;Nave Paterna;Empresa y oficina;2411
+2026-05;Nave Riba-roja;Empresa y oficina;3617
+2026-05;Nave Paterna;Vehículo;10597
+2026-05;Nave Riba-roja;Vehículo;4541
+2026-05;Nave Paterna;Infantil;7074
+2026-05;Nave Paterna;Familia y hogar;6491
+2026-05;Nave Paterna;Viaje;13204
+2026-05;Nave Paterna;Deporte y outdoor;12209
+2026-05;Nave Paterna;Diabetes;4519
+2026-05;Nave Riba-roja;Personalizados;1509
+2026-06;Nave Paterna;Empresa y oficina;2340
+2026-06;Nave Riba-roja;Empresa y oficina;3510
+2026-06;Nave Paterna;Vehículo;14873
+2026-06;Nave Riba-roja;Vehículo;6374
+2026-06;Nave Paterna;Infantil;8280
+2026-06;Nave Paterna;Familia y hogar;6997
+2026-06;Nave Paterna;Viaje;19145
+2026-06;Nave Paterna;Deporte y outdoor;14875
+2026-06;Nave Paterna;Diabetes;4503
+2026-06;Nave Riba-roja;Personalizados;1557
+2026-07;Nave Paterna;Empresa y oficina;2132
+2026-07;Nave Riba-roja;Empresa y oficina;3198
+2026-07;Nave Paterna;Vehículo;17619
+2026-07;Nave Riba-roja;Vehículo;7551
+2026-07;Nave Paterna;Infantil;8921
+2026-07;Nave Paterna;Familia y hogar;7928
+2026-07;Nave Paterna;Viaje;22701
+2026-07;Nave Paterna;Deporte y outdoor;14381
+2026-07;Nave Paterna;Diabetes;5073
+2026-07;Nave Riba-roja;Personalizados;1259
+2026-08;Nave Paterna;Empresa y oficina;1579
+2026-08;Nave Riba-roja;Empresa y oficina;2368
+2026-08;Nave Paterna;Vehículo;12795
+2026-08;Nave Riba-roja;Vehículo;5484
+2026-08;Nave Paterna;Infantil;8169
+2026-08;Nave Paterna;Familia y hogar;6537
+2026-08;Nave Paterna;Viaje;15826
+2026-08;Nave Paterna;Deporte y outdoor;10632
+2026-08;Nave Paterna;Diabetes;3629
+2026-08;Nave Riba-roja;Personalizados;1104
+2026-09;Nave Paterna;Empresa y oficina;3674
+2026-09;Nave Riba-roja;Empresa y oficina;5512
+2026-09;Nave Paterna;Vehículo;11023
+2026-09;Nave Riba-roja;Vehículo;4724
+2026-09;Nave Paterna;Infantil;11164
+2026-09;Nave Paterna;Familia y hogar;8358
+2026-09;Nave Paterna;Viaje;11172
+2026-09;Nave Paterna;Deporte y outdoor;10077
+2026-09;Nave Paterna;Diabetes;4736
+2026-09;Nave Riba-roja;Personalizados;2461

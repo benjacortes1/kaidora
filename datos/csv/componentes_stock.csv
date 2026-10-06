@@ -1,0 +1,18 @@
+﻿id;componente;proveedor;stock;consumo_diario;punto_pedido;stock_seguridad;lote;caducidad;producto_sanitario
+C01;Gasa estéril 10×10 cm;S01;48200;3900;31000;15600;GS-2608-14;2030-08;True
+C02;Venda elástica 5 m;S01;16900;1500;11000;6000;VE-2607-02;2031-07;True
+C03;Apósitos adhesivos surtidos;S02;91500;8200;57000;32800;AP-2609-21;2029-09;True
+C04;Esparadrapo hipoalérgico;S02;9800;900;6300;3600;ES-2605-11;2029-05;True
+C05;Guantes de nitrilo M;S03;11800;2700;14000;8100;GN-2604-88;2029-04;True
+C06;Suero fisiológico 5 ml;S04;38400;3100;22000;12400;SF-2601-07;2027-01;True
+C07;Toallita de clorhexidina;S04;27200;2900;20000;11600;CL-2607-19;2028-07;True
+C08;Manta isotérmica;S05;7900;950;6200;3800;MI-2606-04;2034-06;False
+C09;Compresa de frío instantáneo;S05;5200;520;3900;2100;CF-2608-01;2028-08;False
+C10;Tabletas de glucosa 4 g;S06;2100;310;3300;1250;TG-2607-30;2027-11;False
+C11;Estuche isotérmico insulina;S06;2600;170;1900;700;EI-2605-12;—;False
+C12;Caja de cartón reciclado;S07;21400;1700;12000;6800;CX-2609-26;—;False
+C13;Estuche rígido EVA;S08;1150;420;5600;3400;EV-2603-01;—;False
+C14;Tijeras de punta roma;S10;12600;1450;9500;5800;TJ-2606-15;—;True
+C15;Termómetro digital;S10;4100;330;2600;1300;TD-2604-09;—;True
+C16;Mascarilla RCP;S12;6800;690;4800;2800;RC-2605-23;2031-05;True
+C17;Folleto de primeros auxilios;S11;30400;2800;17000;11200;FL-2609-02;—;False

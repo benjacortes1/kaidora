@@ -1,0 +1,317 @@
+/* ===================================================================== styles_v3.css
+   Identidad azul (logo K, Inter), acabado premium de los paneles, pantalla de carga y portada con las 4 categorías. */
+
+/* ------------------------------------------------------------------ base */
+html { scrollbar-gutter: stable; }
+body { text-rendering: optimizeLegibility; -moz-osx-font-smoothing: grayscale; }
+.kpi-v, .hc-kpi b, table.t td.r { font-variant-numeric: tabular-nums; }
+::selection { background: color-mix(in srgb, var(--brand) 22%, transparent); }
+
+/* ------------------------------------------------------------------ barra superior (cristal azul noche) */
+.appbar { background: var(--bar); border-bottom: 1px solid rgba(255, 255, 255, .06); }
+.brand .logo { width: 30px; height: 30px; filter: drop-shadow(0 3px 10px rgba(37, 99, 235, .45)); }
+.brand b { font-weight: 700; letter-spacing: -.025em; font-size: 1.08rem; }
+.bar-btn { border-radius: 10px; }
+
+/* ------------------------------------------------------------------ pestañas de página (cristal) */
+.pagetabs { background: var(--surface); gap: 4px; padding-top: 4px; padding-bottom: calc(4px + env(safe-area-inset-bottom, 0px)); height: calc(40px + env(safe-area-inset-bottom, 0px)); }
+.pagetabs button { border-top: 0; border-radius: 9px; padding: 0 14px; transition: background .2s, color .2s; }
+.pagetabs button[aria-current="page"] { background: var(--brand-soft); color: var(--brand-strong); }
+.dot { border-radius: 5px; }
+
+/* ------------------------------------------------------------------ paneles: acabado premium */
+.report { gap: 11px; padding: 12px 16px 12px; }
+.r-title h1 { font-size: 1.32rem; font-weight: 700; letter-spacing: -.028em; }
+.chip-l { padding: 3px 10px 3px 4px; }
+.kpi { border-radius: 14px; padding: 10px 15px 11px; }
+.kpi-v { font-weight: 700; letter-spacing: -.03em; font-size: 1.42rem; }
+.kpi.has-sp { grid-template-columns: minmax(0, 1fr) 30%; }
+.tile { border-radius: 14px; padding: 11px 14px 11px; }
+.tile-h h3 { font-size: .86rem; font-weight: 650; letter-spacing: -.012em; }
+.select { border-radius: 9px; height: 32px; }
+.clear-btn { height: 32px; border-radius: 9px; }
+.seg { border-radius: 10px; padding: 3px; }
+.seg button { border-radius: 8px; }
+.ficha-btn { height: 28px; }
+.ficha-pop { border-radius: 16px; box-shadow: 0 24px 60px rgba(15, 23, 42, .2); }
+.tip { border-radius: 10px; padding: 8px 10px; box-shadow: 0 12px 32px rgba(15, 23, 42, .16); }
+.pop { border-radius: 14px; }
+.focus { border-radius: 18px; }
+.drawer { border-radius: 18px 0 0 18px; }
+.x-btn { border-radius: 9px; }
+.ta { border-radius: 7px; }
+.sl input[type="range"] { accent-color: var(--brand); }
+:root { --hover-shadow: 0 2px 6px rgba(15, 23, 42, .05), 0 12px 30px rgba(15, 23, 42, .08); }
+:root[data-theme="dark"] { --hover-shadow: 0 12px 30px rgba(0, 0, 0, .5); }
+
+/* ------------------------------------------------------------------ intro con el logo
+   Solo CSS: empieza en el primer pintado, sin esperar al JavaScript. Mismos tiempos y curvas que la versión anterior con GSAP
+   (expo.out ≈ cubic-bezier(.16,1,.3,1); power3.inOut ≈ (.76,0,.24,1); power2.in ≈ (.32,0,.67,0); power2.inOut ≈ (.65,0,.35,1)).
+   --intro-s = INTRO_MAX_S (lo pone el script del <head>); todo escala con ella. */
+:root { --intro-s: 1s; }
+.intro { --t: calc(var(--intro-s) / 1.02); position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; background: radial-gradient(60% 60% at 50% 50%, #10306f 0%, #071330 55%, #030915 100%);
+  animation: introOut calc(.28 * var(--t)) cubic-bezier(.65, 0, .35, 1) calc(.74 * var(--t)) both; }
+@keyframes introOut { to { opacity: 0; visibility: hidden; } }
+.intro-glow { position: absolute; width: 70vmin; height: 70vmin; border-radius: 50%; background: radial-gradient(circle, rgba(59, 130, 246, .5), rgba(59, 130, 246, 0) 62%);
+  animation: introGlow calc(.7 * var(--t)) cubic-bezier(.16, 1, .3, 1) both; }
+@keyframes introGlow { from { opacity: 0; transform: scale(.35); } to { opacity: 1; transform: none; } }
+.intro-mark { position: relative; display: flex; align-items: center; gap: 20px; animation: introMarkOut calc(.26 * var(--t)) cubic-bezier(.32, 0, .67, 0) calc(.74 * var(--t)) both; }
+@keyframes introMarkOut { to { opacity: 0; transform: translateY(-14px) scale(.97); } }
+.intro .logo { width: 92px; height: 92px; flex: none; filter: drop-shadow(0 18px 44px rgba(37, 99, 235, .6));
+  animation: introLogo calc(.5 * var(--t)) cubic-bezier(.16, 1, .3, 1) calc(.02 * var(--t)) both; }
+@keyframes introLogo { from { opacity: 0; transform: scale(.6) rotate(-8deg); } to { opacity: 1; transform: none; } }
+.intro .logo path { stroke-dasharray: 1; stroke-dashoffset: 1; animation: introStroke calc(.32 * var(--t)) cubic-bezier(.76, 0, .24, 1) calc(.1 * var(--t)) both; }
+.intro .logo .k2 { animation-delay: calc(.16 * var(--t)); }
+.intro .logo .k3 { animation-delay: calc(.22 * var(--t)); }
+@keyframes introStroke { from { stroke-dashoffset: 1; } to { stroke-dashoffset: 0; } }
+.intro-word { display: inline-flex; overflow: hidden; font-size: 3.6rem; font-weight: 700; letter-spacing: -.055em; color: #ffffff; line-height: 1.1; padding: 0 .04em .06em 0; }
+.intro-word span { display: inline-block; animation: introLetter calc(.42 * var(--t)) cubic-bezier(.16, 1, .3, 1) calc((.22 + .02 * var(--i)) * var(--t)) both; }
+@keyframes introLetter { from { opacity: 0; transform: translateY(110%); } to { opacity: 1; transform: none; } }
+html.intro-on, html.intro-on body { overflow: hidden; }
+html.intro-visto .intro { display: none; }          /* ya vista en esta sesión */
+@media (prefers-reduced-motion: reduce) { .intro { display: none; } }
+@media (max-width: 520px) { .intro .logo { width: 64px; height: 64px; } .intro-word { font-size: 2.5rem; } .intro-mark { gap: 14px; } }
+
+/* transición tarjeta → panel */
+.morph { position: fixed; z-index: 150; pointer-events: none; overflow: hidden; display: grid; place-items: center; box-shadow: 0 30px 80px rgba(2, 8, 30, .35); }
+.morph img { filter: drop-shadow(0 22px 26px rgba(2, 8, 30, .45)); }
+
+/* ------------------------------------------------------------------ portada: solo las 4 categorías */
+body[data-view="home"] { background: #050d1f; }
+body[data-view="home"] .appbar { position: fixed; left: 0; right: 0; top: 0; background: transparent; -webkit-backdrop-filter: none; backdrop-filter: none; border-bottom-color: transparent; }
+body[data-view="home"] .appbar .sep, body[data-view="home"] .appbar .where, body[data-view="home"] .stamp, body[data-view="home"] .brand span { display: none; }
+body[data-view="home"] .pagetabs { display: none; }
+body[data-view="home"] main { padding-bottom: 0; }
+.sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
+
+.home { position: relative; isolation: isolate; color: #ffffff; }
+.home-cards-sec { position: relative; z-index: 2; min-height: 100vh; min-height: 100svh; display: grid; place-items: center;
+  padding: calc(76px + env(safe-area-inset-top, 0px)) clamp(16px, 3vw, 40px) calc(clamp(24px, 5vh, 56px) + env(safe-area-inset-bottom, 0px)); }
+/* el fondo del kit: azul noche, resplandores y retícula de puntos */
+.home-bg { position: fixed; inset: 0; z-index: -1; overflow: hidden; pointer-events: none; background:
+  radial-gradient(55% 50% at 50% 62%, rgba(37, 99, 235, .36), transparent 70%),
+  radial-gradient(38% 38% at 12% 8%, rgba(91, 155, 255, .2), transparent 70%),
+  radial-gradient(34% 34% at 92% 18%, rgba(56, 189, 248, .14), transparent 70%),
+  linear-gradient(180deg, #081638 0%, #050d1f 100%); }
+.home-bg::after { content: ""; position: absolute; inset: 0; opacity: .5; background-image: radial-gradient(rgba(255, 255, 255, .09) 1px, transparent 1px); background-size: 28px 28px; -webkit-mask-image: radial-gradient(70% 60% at 50% 45%, #000 30%, transparent 78%); mask-image: radial-gradient(70% 60% at 50% 45%, #000 30%, transparent 78%); }
+.home-bg i { position: absolute; border-radius: 50%; }   /* resplandores fijos (antes animados): sin trabajo extra mientras se hace scroll */
+.home-bg i:nth-child(1) { width: 48vmax; height: 48vmax; left: -14vmax; top: -18vmax; background: radial-gradient(circle, rgba(59, 130, 246, .3), transparent 62%); }
+.home-bg i:nth-child(2) { width: 42vmax; height: 42vmax; right: -16vmax; bottom: -20vmax; background: radial-gradient(circle, rgba(56, 189, 248, .2), transparent 62%); }
+@keyframes drift { to { transform: translate3d(7vmax, 5vmax, 0) scale(1.1); } }
+
+.home-grid { width: min(1280px, 100%); display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: clamp(14px, 1.6vw, 22px); }
+.hc { --mx: 50%; --my: 30%; position: relative; display: flex; flex-direction: column; align-items: flex-start; text-align: left; min-height: clamp(380px, 62vh, 500px); padding: 22px; border-radius: 28px; overflow: hidden;
+  color: #ffffff; font: inherit; cursor: pointer; will-change: transform;
+  border: 1px solid rgba(255, 255, 255, .12);
+  background: linear-gradient(180deg, rgba(38, 62, 118, .82) 0%, rgba(22, 40, 86, .84) 45%, rgba(10, 22, 54, .9) 100%);   /* sin desenfoque en vivo: no se recalcula al pasar sobre el kit */
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .14), 0 24px 60px rgba(0, 0, 0, .35);
+  transition: border-color .35s, box-shadow .35s; }
+/* foco de luz que sigue al cursor */
+.hc::before { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .35s;
+  background: radial-gradient(420px circle at var(--mx) var(--my), rgba(96, 165, 250, .24), transparent 45%); }
+/* borde luminoso azul */
+.hc::after { content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px; pointer-events: none; opacity: 0; transition: opacity .35s;
+  background: radial-gradient(320px circle at var(--mx) var(--my), rgba(191, 219, 254, .95), rgba(59, 130, 246, .45) 40%, rgba(59, 130, 246, .12) 75%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0); -webkit-mask-composite: xor;
+  mask: linear-gradient(#000 0 0) content-box exclude, linear-gradient(#000 0 0); }
+.hc:hover::before, .hc:hover::after, .hc:focus-visible::after { opacity: 1; }
+.hc:hover { border-color: rgba(147, 197, 253, .3); box-shadow: inset 0 1px 0 rgba(255, 255, 255, .2), 0 30px 80px rgba(6, 26, 84, .6); }
+.hc:focus-visible { outline: 3px solid #93c5fd; outline-offset: 4px; }
+.hc > * { position: relative; z-index: 1; }
+.hc-go { position: absolute; top: 18px; right: 18px; z-index: 2; width: 38px; height: 38px; border-radius: 50%; display: grid; place-items: center; background: rgba(255, 255, 255, .08); border: 1px solid rgba(255, 255, 255, .14); color: #dbe7ff;
+  transition: background .3s, border-color .3s, transform .45s cubic-bezier(.2, .8, .2, 1); }
+.hc-go svg { width: 16px; height: 16px; }
+.hc:hover .hc-go, .hc:focus-visible .hc-go { background: #2563eb; border-color: #3b82f6; color: #ffffff; transform: translateX(2px); }
+.hc-art { position: relative; flex: 1 1 auto; align-self: stretch; display: grid; place-items: center; min-height: 0; margin: 20px 0 12px; }
+.hc-art > * { grid-area: 1 / 1; }
+.hc-art img { position: relative; z-index: 2; width: clamp(112px, 12.5vw, 176px); height: auto; filter: drop-shadow(0 22px 24px rgba(2, 8, 30, .55)); -webkit-user-select: none; user-select: none; will-change: transform; }
+.hc-halo { z-index: 0; width: min(88%, 230px); aspect-ratio: 1; border-radius: 50%; background: radial-gradient(circle, rgba(59, 130, 246, .45), rgba(59, 130, 246, .1) 52%, transparent 70%); }
+.hc-shadow { z-index: 1; align-self: end; width: 46%; height: 16px; border-radius: 50%; background: radial-gradient(closest-side, rgba(0, 4, 20, .6), transparent); }
+.hc-acr { font-size: clamp(2rem, 2.8vw, 2.7rem); font-weight: 800; letter-spacing: -.05em; line-height: 1; }
+.hc-name { margin-top: 7px; font-size: clamp(.84rem, 1vw, .98rem); color: #bfcdea; font-weight: 500; line-height: 1.35; min-height: 2.7em; }
+.hc-kpi { margin-top: 16px; padding-top: 14px; border-top: 1px solid rgba(255, 255, 255, .1); align-self: stretch; display: grid; gap: 2px; }
+.hc-kpi b { font-size: clamp(1.2rem, 1.7vw, 1.6rem); font-weight: 700; letter-spacing: -.035em; font-variant-numeric: tabular-nums; white-space: nowrap; }
+.hc-kpi small { font-size: .8rem; color: #a3b6d9; }
+
+/* ------------------------------------------------------------------ adaptación */
+@media (max-width: 1100px) and (min-width: 861px) { .hc { padding: 18px; } .hc-go { top: 14px; right: 14px; } }
+/* móvil y tableta estrecha: cuadrícula 2 × 2 en una sola pantalla */
+@media (max-width: 860px) {
+  .home-cards-sec { display: flex; flex-direction: column; height: 100vh; height: 100svh; min-height: 0; padding: calc(60px + env(safe-area-inset-top, 0px)) 12px calc(14px + env(safe-area-inset-bottom, 0px)); }
+  .home-grid { flex: 1 1 0; min-height: 0; grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); gap: 12px; }
+  .hc { min-height: 0; padding: 14px; border-radius: 22px; }
+  .hc-go { top: 12px; right: 12px; width: 30px; height: 30px; }
+  .hc-go svg { width: 14px; height: 14px; }
+  .hc-art { margin: 6px 0 4px; }
+  .hc-art img { width: min(34vw, 19svh, 150px); }
+  .hc-shadow { height: 10px; }
+  .hc-acr { font-size: 1.7rem; }
+  .hc-name { margin-top: 4px; font-size: .76rem; }
+  .hc-kpi { margin-top: 8px; padding-top: 8px; gap: 0; }
+  .hc-kpi b { font-size: 1.08rem; }
+  .hc-kpi small { font-size: .68rem; }
+}
+/* pantallas muy bajas (móvil en horizontal): se permite el scroll */
+@media (max-height: 560px) { .home-cards-sec { height: auto; min-height: 100svh; } .home-grid { flex: none; grid-template-rows: none; } .hc { min-height: 300px; } }
+@media (prefers-reduced-motion: reduce) { .home-bg i { animation: none; } }
+
+/* ------------------------------------------------------------------ mapa de España (coropletas con relieve suave) */
+:root { --map-side: #8ea3cc; --map-shadow: rgba(15, 23, 42, .2); }
+:root[data-theme="dark"] { --map-side: #050b1a; --map-shadow: rgba(0, 0, 0, .55); }
+.spain .map-side path { fill: var(--map-side); }
+.spain .map-side { filter: drop-shadow(0 6px 7px var(--map-shadow)); }
+.spain .map-frame { fill: none; stroke: var(--line-2); stroke-width: 1; }
+.spain .rg { outline: none; transform-box: fill-box; transform-origin: 50% 50%; transition: transform .28s cubic-bezier(.2, .8, .2, 1), opacity .2s, filter .28s; }
+.spain .rg-fill { stroke: var(--surface); stroke-width: 1; stroke-linejoin: round; transition: fill .75s cubic-bezier(.2, .8, .2, 1); }
+.spain .rg-sheen { pointer-events: none; }
+.spain .rg:hover, .spain .rg:focus-visible { transform: translateY(-6px); filter: drop-shadow(0 7px 5px var(--map-shadow)); }
+.spain .rg.on .rg-fill { stroke: var(--ink); stroke-width: 2; }
+.spain .rg:focus-visible .rg-fill { stroke: var(--focus); stroke-width: 2.5; }
+.spain .rg-dot { stroke: var(--surface); stroke-width: 1.5; transition: fill .75s cubic-bezier(.2, .8, .2, 1), opacity .2s; filter: drop-shadow(0 2px 3px var(--map-shadow)); outline: none; }
+.spain .rg-dot.on { stroke: var(--ink); stroke-width: 2; }
+.spain .rg-dot:focus-visible { stroke: var(--focus); stroke-width: 2.5; }
+.spain .map-val { font: 700 11px var(--font); paint-order: stroke; stroke-width: 2.5px; stroke-linejoin: round; pointer-events: none; font-variant-numeric: tabular-nums; }
+.spain .map-cap { font: 500 9.5px var(--font); fill: var(--muted); pointer-events: none; }
+.spain .map-src { font: 9px var(--font); fill: var(--muted); }
+
+/* ------------------------------------------------------------------ MIS y ESS: el mapa ocupa la mitad derecha */
+.visuals.v-mis { grid-template-columns: minmax(0, 1.6fr) minmax(0, 1.6fr) minmax(0, 1fr) minmax(0, 1fr); grid-template-rows: minmax(0, 1fr) minmax(0, 1.2fr); }   /* el mapa ocupa ~38 % del ancho */
+.visuals.v-ess { grid-template-columns: repeat(3, minmax(0, 1fr)); grid-template-rows: repeat(2, minmax(0, 1fr)); }
+.visuals.v-mis { grid-template-areas: "trend trend map map" "bridge li map map"; }
+.visuals.v-ess { grid-template-areas: "gauge traj traj" "mix bsc ods"; }
+.v-mis > [data-area="trend"] { grid-area: trend; } .v-mis > [data-area="bridge"] { grid-area: bridge; } .v-mis > [data-area="li"] { grid-area: li; }
+.v-mis > [data-area="map"] { grid-area: map; }
+.v-ess > [data-area="gauge"] { grid-area: gauge; } .v-ess > [data-area="traj"] { grid-area: traj; } .v-ess > [data-area="bsc"] { grid-area: bsc; }
+.v-ess > [data-area="mix"] { grid-area: mix; } .v-ess > [data-area="ods"] { grid-area: ods; }
+@media (max-width: 1100px), (max-height: 640px) {
+  .visuals.v-mis, .visuals.v-ess { grid-template-columns: repeat(2, minmax(0, 1fr)); grid-template-rows: none; grid-auto-rows: 290px; }
+  .visuals.v-mis { grid-template-areas: "trend trend" "bridge li" "map map" "map map"; }
+  .visuals.v-ess { grid-template-areas: "gauge traj" "bsc ods" "mix mix"; }
+}
+@media (max-width: 720px) {
+  .visuals.v-mis, .visuals.v-ess { grid-template-columns: minmax(0, 1fr); grid-auto-rows: 300px; }
+  .visuals.v-mis { grid-template-areas: "trend" "bridge" "li" "map" "map"; }
+  .visuals.v-ess { grid-template-areas: "gauge" "traj" "bsc" "ods" "mix"; }
+}
+
+/* ------------------------------------------------------------------ portada: kit 3D con vista explosionada */
+.kit-scene { position: relative; z-index: 1; height: 100vh; height: 100svh; overflow: hidden; background: #081122; }
+.kit-stage { position: absolute; inset: 0; will-change: transform, opacity; }
+.kit-stage canvas { display: block; }   /* sin will-change: el lienzo no se anima (lo hace .kit-stage) */
+.kit-seam-t, .kit-seam-b { position: absolute; left: 0; right: 0; display: none; pointer-events: none; }
+.kit-seam-t { background: linear-gradient(180deg, #081122, rgba(8, 17, 34, 0)); }
+.kit-seam-b { background: linear-gradient(180deg, rgba(27, 45, 79, 0), #1b2d4f); }
+.kit-vignette { position: absolute; inset: 0; pointer-events: none; background: radial-gradient(120% 95% at 50% 50%, transparent 55%, rgba(4, 10, 24, .55) 100%); }
+.kit-card { position: absolute; z-index: 2; left: clamp(16px, 5vw, 80px); top: calc(clamp(72px, 12vh, 120px) + env(safe-area-inset-top, 0px)); display: grid; gap: 3px; padding: 16px 22px 18px; border-radius: 20px; color: #ffffff;
+  background: linear-gradient(180deg, rgba(40, 64, 112, .55), rgba(16, 32, 68, .7)); border: 1px solid rgba(255, 255, 255, .16);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, .16), 0 22px 54px rgba(0, 0, 0, .32); }
+.kit-card b { font-size: clamp(1.5rem, 2.5vw, 2.1rem); font-weight: 750; letter-spacing: -.035em; line-height: 1.1; }
+.kit-card span { font-size: clamp(.86rem, 1.25vw, 1.06rem); color: #c9d7f0; line-height: 1.3; }
+.kit-scene .h-scroll { position: absolute; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); z-index: 2; width: 24px; height: 38px; margin-left: -12px; }
+.kit-scene .h-scroll i { position: absolute; inset: 0; border: 2px solid rgba(255, 255, 255, .4); border-radius: 14px; animation: fadeIn .7s ease 1.2s both; }
+.kit-scene .h-scroll span { position: absolute; left: 50%; top: 7px; width: 4px; height: 8px; margin-left: -2px; border-radius: 2px; background: #ffffff; animation: wheel 1.8s cubic-bezier(.5, 0, .5, 1) infinite; }
+@keyframes wheel { 0% { transform: translateY(0); opacity: 0; } 20% { opacity: 1; } 70% { transform: translateY(12px); opacity: 0; } 100% { opacity: 0; } }
+/* .kit-spacer: su altura (recorrido del kit) la pone view_home.js con KIT_SCROLL_VH */
+.home.static .kit-spacer, .home.static .h-scroll { display: none; }
+html.lenis, html.lenis body { height: auto; }
+.lenis.lenis-stopped { overflow: clip; }
+@media (max-width: 640px) {
+  .kit-card { padding: 12px 16px 14px; border-radius: 16px; top: calc(64px + env(safe-area-inset-top, 0px)); }
+}
+
+/* ------------------------------------------------------------------ accesibilidad para personas ciegas */
+/* botones «Escuchar»: el de cada gráfico siempre visible y el del panel junto a «Ficha» */
+.ta-listen { color: var(--ink-2); }
+.ta-listen.on, .listen-btn.on { color: var(--brand-strong); background: var(--brand-soft); border-color: var(--brand); }
+.ta-listen.on svg, .listen-btn.on svg { animation: sonar 1s ease-in-out infinite; }
+@keyframes sonar { 50% { transform: scale(1.15); } }
+.r-title .listen-btn { margin-left: -4px; }
+
+/* recuadros sin gráfico ampliados: el recuadro real se muestra en grande dentro de la ventana */
+.focus-body > .tile.tile-zoom { flex: 1; min-height: 0; border: 0; box-shadow: none; padding: 0; overflow: auto; }
+.tile-zoom > .tile-h h3, .tile-zoom [data-zoom] { display: none; }
+.tile-zoom table.t { font-size: .92rem; }
+.tile-zoom table.t td, .tile-zoom table.t th { padding: 8px 12px; }
+.tile-zoom .ods { gap: 14px; }
+.tile-zoom .ods-top { font-size: .95rem; }
+.tile-zoom .meter { height: 9px; }
+.tile-zoom .sliders { grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 16px 28px; overflow: visible; }
+.tile-zoom .sl-top { font-size: .9rem; }
+.tile-ph { opacity: .35; }
+
+/* los paneles nunca son más anchos que la pantalla (en móvil, la cabecera y las tablas se adaptan o se desplazan dentro de su recuadro) */
+.report { grid-template-columns: minmax(0, 1fr); }
+.report > *, .r-head > *, .dss-body > *, .dss-main > * { min-width: 0; }
+.r-title { flex-wrap: wrap; row-gap: 6px; }
+
+/* la cabecera y la leyenda de un recuadro nunca se encogen (si no, el contenido las aplasta y los botones se montan encima) */
+.tile > .tile-h, .tile > .legend { flex-shrink: 0; }
+
+/* cabeceras con botones de filtro (Transacciones del TPS): en pantallas estrechas los botones pasan a su propia fila, deslizable */
+@media (max-width: 900px) {
+  .tile-h:has(.chips) { flex-wrap: wrap; row-gap: 6px; }
+  .tile-h:has(.chips) h3 { flex: 1 1 0; min-width: 0; }
+  .tile-h:has(.chips) .tile-r { display: contents; }
+  .tile-h:has(.chips) .aside { order: 9; flex: 1 1 100%; min-width: 0; overflow-x: auto; scrollbar-width: none; }
+  .tile-h:has(.chips) .aside::-webkit-scrollbar { display: none; }
+  .tile-h:has(.chips) .chips { flex-wrap: nowrap; }
+}
+
+/* ---------------------------------------------------------------- textos que no se cortan
+   títulos de recuadro: hasta 2 líneas en vez de «…»; los botones de la cabecera no se encogen ni se salen */
+.tile-h h3 { white-space: normal; text-overflow: clip; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; line-height: 1.25; flex: 1 1 auto; min-width: 0; overflow-wrap: break-word; }
+.tile-h .tile-r { flex-shrink: 0; }
+/* KPI: la cifra se adapta al ancho de la tarjeta y la etiqueta usa hasta 2 líneas */
+.kpi { container-type: inline-size; }
+.kpi-v { font-size: clamp(.86rem, 12cqi, 1.42rem); }
+.kpi-l { white-space: normal; text-overflow: clip; display: -webkit-box; -webkit-box-orient: vertical; -webkit-line-clamp: 2; line-clamp: 2; line-height: 1.3; }
+@container (max-width: 12.5em) {
+  .kpi.has-sp { grid-template-columns: minmax(0, 1fr); }
+  .kpi-sp { display: none; }
+}
+/* ODS en portátiles de poca altura (1280×720, 1366×768): cada indicador en una sola línea (nombre · barra · cifra) */
+@media (min-width: 1100px) and (max-height: 800px) {
+  .ods { gap: 6px; }
+  .ods-row { grid-template-columns: minmax(0, 1fr) minmax(48px, 24%) auto; align-items: center; column-gap: 10px; }
+  .ods-top { display: contents; }
+  .ods-top > span { grid-column: 1; grid-row: 1; }
+  .ods-row > .meter { grid-column: 2; grid-row: 1; }
+  .ods-top > b { grid-column: 3; grid-row: 1; font-size: .72rem; }
+}
+/* botones de escenario dentro de un recuadro: pasan a otra línea si no caben (letra grande) */
+.tile > .seg { flex-wrap: wrap; }
+/* DSS en tableta vertical: supuestos arriba (en 2 columnas) y gráficos a todo el ancho, en vez de 3 columnas estrechas */
+@media (min-width: 721px) and (max-width: 900px) {
+  .dss-body { grid-template-columns: minmax(0, 1fr); }
+  .dss-body .sliders { grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 28px; overflow: visible; }
+  .dss-main .kpis { grid-template-columns: repeat(auto-fit, minmax(8.5rem, 1fr)); }
+}
+/* la flecha ↗ de los KPI que llevan a otro panel no se monta sobre la minigráfica */
+button.kpi.has-sp .kpi-sp { margin-right: 14px; }
+/* la barra inferior nunca tapa el contenido (tampoco en iPhone con barra de inicio) */
+main { padding-bottom: calc(40px + env(safe-area-inset-bottom, 0px)); }
+/* móvil: pestañas como las de una app (5 iguales, distintivo arriba y nombre debajo), todas visibles sin deslizar */
+@media (max-width: 600px) {
+  .pagetabs { height: calc(58px + env(safe-area-inset-bottom, 0px)); padding: 5px 6px calc(5px + env(safe-area-inset-bottom, 0px)); gap: 2px; }
+  .pagetabs button { flex: 1 1 0; min-width: 0; flex-direction: column; justify-content: center; gap: 4px; padding: 0 1px; font-size: .62rem; letter-spacing: -.01em; line-height: 1.1; }
+  .pagetabs .pt-l { max-width: 100%; overflow: hidden; text-overflow: ellipsis; }
+  main { padding-bottom: calc(58px + env(safe-area-inset-bottom, 0px)); }
+}
+/* accesibilidad (axe-core, WCAG 2.2 AA) */
+.chip-l b { background: transparent; box-shadow: inset 0 0 0 1.5px currentColor; }    /* sigla del distintivo: mismo contraste que el texto (≥ 4,5:1) */
+.lg-btn { min-height: 24px; }                                                         /* tamaño mínimo de objetivo táctil */
+.lg-btn[aria-pressed="false"] { opacity: 1; color: var(--muted); }                    /* serie oculta: tachada, pero legible */
+.tbl:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; }
+/* portada en vertical (móvil/tableta): bajo el kit abierto queda ~1/3 de pantalla vacía; las tarjetas empiezan a subir por ahí,
+   justo debajo del kit cuando termina de abrirse, en vez de llegar tras un tramo de scroll vacío */
+@media (orientation: portrait) and (max-width: 900px) {
+  .home:not(.home-m) .home-cards-sec { margin-top: -38svh; }   /* no en la portada móvil (sin kit encima) */
+}
+
+/* ------------------------------------------------------------------ portada móvil (MOBILE_MQ): solo las 4 categorías, sin kit
+   entrada con un fundido corto (≤ 300 ms en total); con «reducir movimiento», sin animación (regla global de styles.css) */
+.home-m .hc { will-change: auto; animation: hcIn .22s cubic-bezier(.2, .8, .2, 1) calc(var(--i, 0) * 25ms) both; }
+/* la portada móvil escrita en el HTML se ve desde el primer pintado (sin fundido); al llegar el JS se aprovecha sin repetirlo */
+#view-home[data-pre] .hc, .home-m.no-anim .hc { animation: none; }
+.home-m .hc-art img { will-change: auto; }
+@keyframes hcIn { from { opacity: 0; } }

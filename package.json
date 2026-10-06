@@ -1,0 +1,8 @@
+{
+  "name": "kaidora",
+  "private": true,
+  "description": "Herramientas de build de la web de Kaidora (minificar el JavaScript con esbuild). La web publicada es la carpeta web/.",
+  "devDependencies": {
+    "esbuild": "^0.25.12"
+  }
+}
